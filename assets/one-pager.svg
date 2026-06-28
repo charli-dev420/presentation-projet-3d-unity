@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">3D Unity AI asset pipeline one-pager</title>
+  <desc id="desc">Public-safe overview of DatasetViewEval, Splat Facade Baker, CodexToUnity, Unit2Comf, LocalAssetFactory, and Unity import.</desc>
+  <rect width="1200" height="675" fill="#0f1419"/>
+  <rect x="48" y="48" width="1104" height="579" rx="18" fill="#151c24" stroke="#6ee7b7" stroke-width="3"/>
+  <text x="84" y="112" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">3D / Unity / AI Assets</text>
+  <text x="84" y="150" fill="#a7b7c8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Dataset review · asset bake · generation · normalization · Unity import</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="240" width="180" height="110" rx="12" fill="#22313c"/>
+    <text x="96" y="285" fill="#ffffff" font-size="22" font-weight="700">Dataset</text>
+    <text x="96" y="318" fill="#cbd5e1" font-size="16">ViewEval</text>
+    <rect x="290" y="240" width="180" height="110" rx="12" fill="#22313c"/>
+    <text x="316" y="285" fill="#ffffff" font-size="22" font-weight="700">Bake</text>
+    <text x="316" y="318" fill="#cbd5e1" font-size="16">SFB 2.5D</text>
+    <rect x="510" y="240" width="180" height="110" rx="12" fill="#22313c"/>
+    <text x="536" y="285" fill="#ffffff" font-size="22" font-weight="700">Jobs</text>
+    <text x="536" y="318" fill="#cbd5e1" font-size="16">Unit2Comf</text>
+    <rect x="730" y="240" width="180" height="110" rx="12" fill="#22313c"/>
+    <text x="756" y="285" fill="#ffffff" font-size="22" font-weight="700">Factory</text>
+    <text x="756" y="318" fill="#cbd5e1" font-size="16">Local assets</text>
+    <rect x="950" y="240" width="180" height="110" rx="12" fill="#22313c"/>
+    <text x="976" y="285" fill="#ffffff" font-size="22" font-weight="700">Unity</text>
+    <text x="976" y="318" fill="#cbd5e1" font-size="16">Import + QA</text>
+    <path d="M250 295 H290 M470 295 H510 M690 295 H730 M910 295 H950" stroke="#6ee7b7" stroke-width="5"/>
+    <rect x="84" y="430" width="1032" height="112" rx="12" fill="#1d2730" stroke="#334756"/>
+    <text x="110" y="474" fill="#ffffff" font-size="24" font-weight="700">Public-safe decision layer</text>
+    <text x="110" y="512" fill="#cbd5e1" font-size="20">Repos publics + sources privees resumees · preuves redigees · pas de datasets, workflows, endpoints ou builds</text>
+    <text x="84" y="592" fill="#a7b7c8" font-size="20">Recherche: partenaires Unity · cas d'usage reels · QA visuelle · financement · packaging</text>
+  </g>
+</svg>

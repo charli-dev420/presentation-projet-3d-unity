@@ -16,6 +16,7 @@ This repository is a public-safe presentation surface.
 - Model weights, datasets, generated meshes, generated images, or ComfyUI workflow files.
 - Local service endpoints, hardware profiles, private paths, logs, QA evidence, screenshots, or build outputs.
 - Any content from Unity `Library`, `Temp`, generated caches, or production asset folders.
+- GLB/FBX/OBJ assets, private textures, backend routes, Docker/run configs, storage details, tokens, model settings, or any source material not cleared or rewritten as a public-safe summary.
 
 ## Review rule
 

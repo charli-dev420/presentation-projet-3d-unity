@@ -1,18 +1,17 @@
 # Assets
 
-Only public-safe presentation assets belong here.
+This folder contains public-safe presentation assets only.
 
-Allowed:
+## Included
 
-- diagrams exported for public presentation;
-- lightweight screenshots after manual review;
-- logos or marks explicitly approved for public use.
+| Asset | Purpose |
+| --- | --- |
+| `brand/daw-core-logo-main.png` | Main DAWWW Core logo for presentation pages. |
+| `brand/daw-core-icon-512.png` | Compact icon/avatar. |
+| `brand/daw-core-banner.png` | Wide banner for cover sections. |
+| `brand/daw-core-watermark-opacity20.png` | Low-opacity watermark for public visual documents. |
+| `one-pager.svg` | Public-safe visual overview of the 3D/Unity pipeline. |
 
-Not allowed:
+## Rule
 
-- generated meshes;
-- datasets;
-- model outputs;
-- Unity project files;
-- local screenshots with paths, logs, or private identifiers;
-- ComfyUI workflows or hardware profiles.
+Do not add private screenshots, secrets, product builds, datasets, local paths, ComfyUI workflows, generated assets, Unity builds, logs, hardware profiles, model outputs, or unreleased artifacts.
