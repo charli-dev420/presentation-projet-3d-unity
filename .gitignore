@@ -1,0 +1,52 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Builds and generated outputs
+dist/
+build/
+output/
+release/
+releases/
+artifacts/
+exports/
+*.zip
+*.7z
+*.rar
+
+# Unity/private production folders
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+Builds/
+*.unitypackage
+
+# Models, datasets, generated assets
+.models/
+models/
+datasets/
+generated/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.blend
