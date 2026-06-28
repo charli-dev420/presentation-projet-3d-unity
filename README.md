@@ -18,6 +18,19 @@ Le fil directeur est simple: passer d'images, maps, rendus ou sorties IA a des a
 - Une synthese des workflows: dataset, generation, controle, normalisation, import Unity.
 - Une lecture partenariat: usages, besoins, risques, prochaines etapes.
 - Des schemas non sensibles.
+- Une cartographie des repos reels couverts, avec liens publics quand ils existent.
+
+### Repos reels couverts
+
+Ce depot est la vitrine publique de plusieurs repos reels:
+
+- [`charli-dev420/splat-facade-baker`](https://github.com/charli-dev420/splat-facade-baker) - pipeline 2.5D / mobile Unity.
+- [`charli-dev420/datasetvieweval`](https://github.com/charli-dev420/datasetvieweval) - preparation et evaluation de datasets Flux/Trellis2.
+- [`charli-dev420/codextounity`](https://github.com/charli-dev420/codextounity) - prototype Codex / Unity / ComfyUI.
+- `charli-dev420/unit2comf-frontend-backend-private` - suite Unity, mobile, web et backend ComfyUI, privee.
+- pipeline local Unity / LocalAssetFactory - experimentation Unity et service local, non publie comme source.
+
+Les details sont dans [`docs/repositories.md`](docs/repositories.md).
 
 ### Ce que ce depot ne contient pas
 
@@ -81,6 +94,19 @@ The core direction is straightforward: move from images, maps, renders, or AI ou
 - A workflow summary: dataset, generation, review, normalization, Unity import.
 - A partnership view: use cases, needs, risks, next steps.
 - Non-sensitive diagrams.
+- A map of the real repositories covered, with public links when available.
+
+### Real repositories covered
+
+This repository is the public showcase for several real repositories:
+
+- [`charli-dev420/splat-facade-baker`](https://github.com/charli-dev420/splat-facade-baker) - 2.5D / mobile Unity pipeline.
+- [`charli-dev420/datasetvieweval`](https://github.com/charli-dev420/datasetvieweval) - Flux/Trellis2 dataset preparation and evaluation.
+- [`charli-dev420/codextounity`](https://github.com/charli-dev420/codextounity) - Codex / Unity / ComfyUI prototype.
+- `charli-dev420/unit2comf-frontend-backend-private` - Unity, mobile, web, and ComfyUI backend suite, private.
+- local Unity / LocalAssetFactory pipeline - Unity and local-service experimentation, not published as source.
+
+Details are in [`docs/repositories.md`](docs/repositories.md).
 
 ### What this repository does not contain
 
