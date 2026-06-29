@@ -1,55 +1,67 @@
-# Partnership Brief / Fiche partenariat
+# Open Needs / Besoins ouverts
 
 [EN](#english) | [FR](#francais)
 
 ## English
 
-### Partnership Goal
+### What This Page Is For
 
-I am looking for partners who care about the decisive part of AI assets: taking visual material from "interesting output" to "reviewed Unity candidate." The useful work is choosing the source, preparing a mobile-aware asset path, importing it cleanly, and writing down the decision.
+This page lists the kinds of help that would actually move the 3D / Unity projects forward.
 
-### Useful Partner Profiles
+The projects covered here are **Mob'ia / ccomf-unity**, **Dataset ReviewEval**, **Splat Face / Splat Facade Baker**, **CodexUnity / CodexToUnity**, and **LocalAssetFactory**.
 
-**Unity/mobile studio.** Bring a real target scene, device class, polygon or texture expectations, and the acceptance rules your team already uses. The project can provide a scoped asset review flow, a Unity checklist, and a public-safe demo summary.
+### Product And UX Feedback
 
-**Technical artist.** Challenge the parts that usually break production value: pivot, scale, orientation, material slots, collider expectation, naming, LOD thinking, and whether the asset actually belongs in the scene. The project can provide structured handoff criteria and a repeatable review vocabulary.
+Mob'ia / ccomf-unity needs feedback on how profiles, jobs, artifacts, and review states should read to a user. The important question is whether someone can understand what was generated, what was reviewed, what failed, and what should happen next.
 
-**ComfyUI / generation expert.** Help tighten source selection, output discovery, failure-mode language, and the point where generation should stop and asset review should begin. Mob'ia / ccomf-unity provides the product context for profiles, jobs, artifacts, and review states.
+Useful feedback includes wording, screen structure, status names, review actions, and what information a client surface should show first.
 
-**Dataset or ML reviewer.** Help make Dataset ReviewEval stricter: provenance, duplication risk, framing, readability, target use, and export discipline. The project can provide a focused review/report shape instead of an open-ended dataset conversation.
+### Unity And Technical-Art Review
 
-**Buyer or funder.** Fund the next controlled proof: one cleared input batch, one Splat Face / Splat Facade Baker or LocalAssetFactory route, one CodexUnity / CodexToUnity handoff where useful, and one Unity import decision. The output should be a written result that can guide the next milestone.
+The Unity side needs practical review on import expectations: scale, pivot, orientation, naming, material slots, collider assumptions, texture size, mobile constraints, and what makes an asset acceptable for a scene.
 
-### Good First Collaboration
+This is especially useful for Splat Face / Splat Facade Baker and LocalAssetFactory, where the output should be light enough to test and structured enough to inspect.
 
-The strongest first collaboration is narrow. Pick ten cleared source images, agree the target Unity/mobile use, prepare one asset route, run the import check, and record the accept/fix/reject decision. That gives both sides a real basis for the next conversation.
+### Dataset Review
 
-### What Can Be Shared
+Dataset ReviewEval needs sharper feedback on source selection. Good review should help decide which images are useful, duplicated, too weak, badly framed, or not worth sending further into the pipeline.
 
-A collaboration can share the product map, demo agenda, source-selection rules, QA summary, synthetic diagrams, public repository links, and redacted proof cards. Deeper material should be handled through an agreed review scope so the demo stays useful and controlled.
+The goal is to improve the quality of inputs before generation or asset preparation starts.
+
+### Funding, Missions, Jobs
+
+Relevant discussions are concrete: Unity tooling, local asset pipelines, AI-assisted asset preparation, dataset review tools, ComfyUI product layers, technical-art workflows, and mobile-ready creative production.
+
+Public contact route: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
 
 ## Francais
 
-### Objectif Partenariat
+### A Quoi Sert Cette Page
 
-Je cherche des partenaires interesses par la partie decisive des assets IA: passer de "sortie interessante" a "candidat Unity revu". Le travail utile consiste a choisir la source, preparer une route asset compatible mobile, importer proprement et ecrire la decision.
+Cette page liste les aides qui feraient vraiment avancer les projets 3D / Unity. Ce n'est pas un pitch de partenariat generique.
 
-### Profils Utiles
+Les projets couverts ici sont **Mob'ia / ccomf-unity**, **Dataset ReviewEval**, **Splat Face / Splat Facade Baker**, **CodexUnity / CodexToUnity** et **LocalAssetFactory**.
 
-**Studio Unity/mobile.** Apporter une scene cible reelle, une classe d'appareil, des attentes polygones ou textures et les regles d'acceptation deja utilisees par l'equipe. Le projet peut fournir un flow de revue asset cible, une checklist Unity et un resume demo public-safe.
+### Feedback Produit Et UX
 
-**Artiste technique.** Challenger ce qui casse souvent la valeur en production: pivot, echelle, orientation, slots materiaux, attente collider, nommage, logique LOD et place reelle de l'asset dans la scene. Le projet peut fournir des criteres de handoff structures et un vocabulaire de revue repetable.
+Mob'ia / ccomf-unity a besoin de retours sur la facon dont profils, jobs, artefacts et etats de revue doivent etre lus par un utilisateur. La question importante est de savoir si quelqu'un comprend ce qui a ete genere, ce qui a ete revu, ce qui a echoue et ce qui doit se passer ensuite.
 
-**Expert ComfyUI / generation.** Aider a durcir la selection source, la decouverte des sorties, le langage des modes d'echec et le moment ou la generation doit s'arreter pour laisser place a la revue asset. Mob'ia / ccomf-unity donne le contexte produit pour profils, jobs, artefacts et etats de revue.
+Les retours utiles concernent le wording, la structure d'ecran, les noms de statuts, les actions de revue et les informations qu'une surface cliente doit montrer en premier.
 
-**Reviewer dataset ou ML.** Aider a rendre Dataset ReviewEval plus strict: provenance, risque de doublon, cadrage, lisibilite, usage cible et discipline export. Le projet peut fournir une forme de revue/rapport ciblee au lieu d'une discussion dataset ouverte.
+### Revue Unity Et Technical-Art
 
-**Acheteur ou financeur.** Financer la prochaine preuve controlee: un lot d'entrees autorisees, une route Splat Face / Splat Facade Baker ou LocalAssetFactory, un handoff CodexUnity / CodexToUnity si utile et une decision d'import Unity. La sortie doit etre un resultat ecrit qui guide le jalon suivant.
+La partie Unity a besoin d'une revue pratique sur les attentes d'import: echelle, pivot, orientation, nommage, slots materiaux, hypotheses collider, taille texture, contraintes mobile et criteres qui rendent un asset acceptable dans une scene.
 
-### Bonne Premiere Collaboration
+C'est particulierement utile pour Splat Face / Splat Facade Baker et LocalAssetFactory, ou la sortie doit rester assez legere pour etre testee et assez structuree pour etre inspectee.
 
-La meilleure premiere collaboration est etroite. Choisir dix images sources autorisees, convenir de l'usage Unity/mobile cible, preparer une route asset, lancer le controle d'import et noter la decision accepter/corriger/rejeter. Cela donne aux deux parties une base reelle pour la suite.
+### Revue Dataset
 
-### Ce Qui Peut Etre Partage
+Dataset ReviewEval a besoin de retours plus stricts sur la selection des sources. Une bonne revue doit aider a decider quelles images sont utiles, dupliquees, trop faibles, mal cadrees ou inutiles a envoyer plus loin dans la chaine.
 
-Une collaboration peut partager la carte produit, l'agenda demo, les regles de selection source, le resume QA, les diagrammes synthetiques, les liens vers repos publics et les cartes de preuve redigees. Les elements plus profonds doivent passer par un scope de revue convenu pour garder une demo utile et controlee.
+L'objectif est d'ameliorer la qualite des entrees avant la generation ou la preparation asset.
+
+### Financement, Missions, Postes
+
+Les discussions pertinentes sont concretes: outillage Unity, pipelines asset locaux, preparation d'assets assistee par IA, outils de revue dataset, couches produit ComfyUI, workflows technical-art et production creative compatible mobile.
+
+Contact public recommande: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).

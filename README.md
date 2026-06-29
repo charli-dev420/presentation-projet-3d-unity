@@ -1,11 +1,11 @@
-# Mob'ia / ccomf-unity - 3D Unity Asset Pipeline
+# Mob'ia / ccomf-unity - 3D Unity Project Presentation
 
 <p align="center">
   <img src="assets/project-banners/mobia.jpg" width="900" alt="Mob'ia project banner">
 </p>
 
 <p align="center">
-  <strong>Public showcase for Mob'ia / ccomf-unity, Dataset ReviewEval, Splat Face / Splat Facade Baker, CodexUnity / CodexToUnity, LocalAssetFactory, and Unity-ready AI asset workflows.</strong>
+  <strong>3D, Unity, dataset review, AI asset preparation, and local production tools by Unicorn Who Dev.</strong>
 </p>
 
 <p align="center">
@@ -13,138 +13,174 @@
   <a href="#francais">Francais</a> ·
   <a href="docs/one-pager.md">One-pager</a> ·
   <a href="docs/project-map.md">Project map</a> ·
-  <a href="docs/demo-scenarios.md">Demo scenarios</a> ·
-  <a href="docs/buyer-brief.md">Buyer brief</a>
+  <a href="docs/source-facts.md">Source facts</a> ·
+  <a href="docs/resources.md">Resources</a>
 </p>
 
 ## English
 
-### What This Repository Is
+### Project Overview
 
-This repository is the public dossier for the 3D / Unity / AI-asset side of my work. I use **Mob'ia** and **ccomf-unity** as the public product names for the layer that turns image generation, dataset review, asset preparation, and Unity checks into something a buyer or collaborator can actually discuss.
+This repository presents the 3D / Unity part of my work through a readable project dossier. The covered tools all deal with the same problem: turning generated or collected visual material into something that can be reviewed, prepared, and used in a Unity-oriented workflow.
 
-The practical question is not "can an image be generated?" It is: can I choose the right source images, prepare a Unity/mobile candidate, import it without guessing, and explain why the result is accepted, fixed, or rejected? That is the shape of this showcase.
+The main public product name is **Mob'ia / ccomf-unity**. Around it, the presentation also covers **Dataset ReviewEval**, **Splat Face / Splat Facade Baker**, **CodexUnity / CodexToUnity**, and **LocalAssetFactory**.
 
-The pipeline is meant to stay concrete:
+### Mob'ia / ccomf-unity
 
-- pick visual sources that are readable enough for the target use;
-- prepare a mobile-minded asset path, such as a light 2.5D card, facade candidate, texture set, or GLB handoff;
-- run a Unity-facing check for scale, orientation, naming, materials, and scene use;
-- produce a small testable batch with notes, export files, and acceptance criteria;
-- run a short demo that ends with a decision, not just a tour.
+Mob'ia / ccomf-unity is the product layer around generation jobs. It is where profiles, pipelines, artifacts, review states, and client surfaces are meant to become readable instead of staying hidden inside a technical folder.
 
-### Public Entry Points
+The project exists because AI generation is not useful by itself when the result cannot be tracked. A useful product needs to know which profile was used, which job ran, where the artifact is, whether the output was accepted or rejected, and what a Unity, web, or mobile client should show next.
 
-Start with the [one-pager](docs/one-pager.md) for the short product read and the [project map](docs/project-map.md) for the repo landscape. The [user flows](docs/user-flows.md), [tutorials](docs/tutorials.md), and [demo scenarios](docs/demo-scenarios.md) show how the work looks for a dataset operator, Unity integrator, buyer, partner, or mission lead.
+Read more:
+[project map](docs/project-map.md), [user flows](docs/user-flows.md), [source facts](docs/source-facts.md).
 
-For evaluation, read [source facts](docs/source-facts.md), [evidence](docs/evidence.md), [public proof index](docs/public-proof-index.md), [proof pack](docs/proof-pack.md), and [QA validation](docs/qa-validation.md). For a commercial or collaboration decision, use the [buyer brief](docs/buyer-brief.md), [partnership brief](docs/partnership.md), [decision pack](docs/decision-pack.md), and [resources](docs/resources.md).
+### Dataset ReviewEval
 
-Visuals and identity live in [visual index](docs/visual-index.md), [assets](assets/README.md), [brand charter](docs/brand-charter.md), and [iconography](docs/iconography.md).
+Dataset ReviewEval is the review side of the pipeline. Its role is to help inspect visual sources before they become training material, generation references, or asset candidates.
 
-### Product Tracks
+The project is about decisions that happen before generation: keeping strong images, rejecting weak or duplicated material, noting why a source is not usable, and preparing cleaner exports. This matters because bad source material usually becomes bad generated output later.
 
-<p>
-  <img align="left" src="assets/project-banners/mobia-for-unity.jpg" width="260" alt="Mob'ia for Unity banner">
-  <strong>Mob'ia / ccomf-unity is the product layer.</strong><br>
-  It frames profiles, jobs, artifacts, review states, and Unity/web/mobile clients as a workflow surface. A useful walkthrough should show one profile, one job, one reviewed artifact, and the next Unity-facing decision.
-</p>
+Read more:
+[source facts](docs/source-facts.md), [tutorials](docs/tutorials.md), [QA validation](docs/qa-validation.md).
 
-<br clear="left">
+### Splat Face / Splat Facade Baker
 
-<p>
-  <img align="left" src="assets/project-banners/save-my-lord.jpg" width="260" alt="Unity asset pipeline banner">
-  <strong>Dataset ReviewEval and Splat Face / Splat Facade Baker prepare the inputs.</strong><br>
-  Dataset ReviewEval helps choose which source images deserve time. Splat Face / Splat Facade Baker turns that choice into a lighter 2.5D or facade-oriented route where depth, framing, silhouette, and mobile constraints are checked before the asset is treated as useful.
-</p>
+Splat Face / Splat Facade Baker explores lighter 2.5D and facade-oriented asset routes. The target is not a heavy cinematic asset first. The target is a candidate that can be reasoned about: framing, silhouette, depth, texture readability, mobile constraints, and Unity import behavior.
 
-<br clear="left">
+This project is useful for facade tests, lightweight scene dressing, visual prototypes, and early mobile-friendly asset experiments.
 
-<p>
-  <img align="left" src="assets/project-banners/mobia.jpg" width="260" alt="Mob'ia banner">
-  <strong>CodexUnity connects agent work to engine review.</strong><br>
-  CodexUnity / CodexToUnity is the bridge language for manifests, dry-runs, import checks, generated artifacts, and human review. LocalAssetFactory completes that local loop by making preflight, normalization, and Unity handoff explicit.
-</p>
+Read more:
+[proof pack](docs/proof-pack.md), [source facts](docs/source-facts.md), [visual index](docs/visual-index.md).
 
-<br clear="left">
+### CodexUnity / CodexToUnity
 
-### What A Good Demo Should Prove
+CodexUnity / CodexToUnity is the bridge between AI-assisted work and Unity review. It focuses on manifests, dry-runs, asset handoff, import checks, and the language needed to make a generated asset understandable inside an engine workflow.
 
-A good demo is deliberately small. For example: select five cleared facade images, reject the weak ones with reasons, prepare one mobile candidate, hand it to Unity with a manifest, inspect the import, and leave with written criteria for the next run. If the asset is too heavy, mis-scaled, badly framed, or hard to review, that is still useful as long as the reason is captured.
+The important part is the handoff: a file alone is not enough. Unity needs names, paths, scale expectations, material notes, import criteria, and a way for a human to decide what happens next.
 
-The point is to make the asset workflow testable. I care less about a polished reel than about whether another person can follow the source choice, the transformation, the Unity check, and the decision.
+Read more:
+[repositories](docs/repositories.md), [user flows](docs/user-flows.md), [resources](docs/resources.md).
 
-### Why Contact
+### LocalAssetFactory
 
-This showcase is useful if you want to discuss Unity/mobile asset workflows, AI asset review, dataset evaluation, ComfyUI/Trellis/Flux integration, pipeline QA, editor validation, controlled demos, funding, mission work, or a role around creative tools and real-time production.
+LocalAssetFactory is the local production side: preflight, normalization, validation, and Unity-oriented preparation before an asset is treated as ready for review.
+
+It sits close to the practical work: files on disk, generated artifacts, image or mesh variants, import readiness, and repeatable checks.
+
+### What This Repository Contains
+
+This repo contains public presentation material for the project family:
+
+- project overview and one-page summary;
+- project map across the related tools;
+- source facts and public proof notes;
+- user flows and tutorials;
+- QA and blocker summaries;
+- visual assets, banners, iconography, and brand notes;
+- resources for users, collaborators, buyers, recruiters, and technical reviewers.
+
+### Current Focus
+
+The current focus is to make the project easier to understand and evaluate:
+
+- clarify the role of Mob'ia / ccomf-unity as the product layer;
+- document how dataset review feeds asset preparation;
+- keep Splat Face / Splat Facade Baker readable as a lightweight Unity route;
+- show where CodexUnity / CodexToUnity fits in the handoff;
+- make the public docs useful without requiring access to every internal repo.
+
+### Open Needs
+
+The useful help right now is concrete:
+
+- Unity or technical-art review on import criteria, scale, naming, materials, and mobile constraints;
+- dataset review feedback on source selection and rejection reasons;
+- product feedback on Mob'ia / ccomf-unity flows, profiles, jobs, and review states;
+- funding, mission, or job discussions around Unity tooling, AI asset preparation, local pipelines, and creative production tools;
+- people willing to read the docs like a real user and point out what is still unclear.
 
 Public contact route: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
 
-### Public Boundary
-
-This repository shares product framing, diagrams, user flows, proof summaries, source facts, demo scenarios, and collaboration material. Deeper evaluation should be scoped around agreed inputs, expected outputs, and the exact criteria used to accept or reject the result.
-
 ## Francais
 
-### Ce Que Presente Ce Repo
+### Vue D'Ensemble
 
-Ce repo est le dossier public de mon travail 3D / Unity / assets IA. J'utilise **Mob'ia** et **ccomf-unity** comme noms publics pour la couche produit qui rend discutables la generation d'images, la revue dataset, la preparation asset et les controles Unity.
+Ce repo presente la partie 3D / Unity de mon travail. Ce n'est pas un depot de code et ce n'est pas une page de pitch. C'est un dossier projet lisible pour plusieurs outils relies par le meme sujet: transformer du materiel visuel genere ou collecte en quelque chose que l'on peut revoir, preparer et utiliser dans un workflow oriente Unity.
 
-La vraie question n'est pas "est-ce qu'on peut generer une image ?" La question est: est-ce que je peux choisir les bonnes images sources, preparer un candidat Unity/mobile, l'importer sans deviner, puis expliquer pourquoi le resultat est accepte, corrige ou rejete ? C'est le fil de cette vitrine.
+Le nom produit public principal est **Mob'ia / ccomf-unity**. Autour, la presentation couvre aussi **Dataset ReviewEval**, **Splat Face / Splat Facade Baker**, **CodexUnity / CodexToUnity** et **LocalAssetFactory**.
 
-La chaine doit rester concrete:
+### Mob'ia / ccomf-unity
 
-- choisir des sources visuelles assez lisibles pour l'usage vise;
-- preparer une route asset pensee mobile, par exemple carte 2.5D legere, facade, set de textures ou handoff GLB;
-- verifier cote Unity l'echelle, l'orientation, le nommage, les materiaux et l'usage scene;
-- produire un petit lot testable avec notes, exports et criteres d'acceptation;
-- faire une demo courte qui termine par une decision, pas seulement par une visite.
+Mob'ia / ccomf-unity est la couche produit autour des jobs de generation. C'est l'endroit ou profils, pipelines, artefacts, etats de revue et surfaces clientes doivent devenir lisibles au lieu de rester caches dans un dossier technique.
 
-### Points D'Entree Publics
+Le projet existe parce qu'une generation IA ne suffit pas si le resultat ne peut pas etre suivi. Un produit utile doit savoir quel profil a ete utilise, quel job a tourne, ou se trouve l'artefact, si la sortie est acceptee ou rejetee, et ce qu'un client Unity, web ou mobile doit montrer ensuite.
 
-Commencer par le [one-pager](docs/one-pager.md) pour la lecture produit courte et la [carte projet](docs/project-map.md) pour la vue multi-repos. Les [flux utilisateur](docs/user-flows.md), [tutoriels](docs/tutorials.md) et [scenarios demo](docs/demo-scenarios.md) montrent le travail vu par un operateur dataset, integrateur Unity, acheteur, partenaire ou responsable mission.
+Lire aussi:
+[carte projet](docs/project-map.md), [flux utilisateur](docs/user-flows.md), [faits sources](docs/source-facts.md).
 
-Pour evaluer, lire [faits sources](docs/source-facts.md), [preuves](docs/evidence.md), [public proof index](docs/public-proof-index.md), [proof pack](docs/proof-pack.md) et [QA validation](docs/qa-validation.md). Pour une decision commerciale ou collaboration, utiliser [buyer brief](docs/buyer-brief.md), [partenariat](docs/partnership.md), [decision pack](docs/decision-pack.md) et [ressources](docs/resources.md).
+### Dataset ReviewEval
 
-Les visuels et l'identite sont dans [index visuel](docs/visual-index.md), [assets](assets/README.md), [charte](docs/brand-charter.md) et [iconographie](docs/iconography.md).
+Dataset ReviewEval est la partie revue de la chaine. Son role est d'aider a inspecter les sources visuelles avant qu'elles deviennent materiel d'entrainement, references de generation ou candidats assets.
 
-### Axes Produit
+Le projet concerne les decisions prises avant la generation: garder les bonnes images, rejeter les sources faibles ou dupliquees, noter pourquoi une source n'est pas exploitable et preparer des exports plus propres. C'est important parce qu'une mauvaise source devient souvent une mauvaise sortie generee.
 
-<p>
-  <img align="left" src="assets/project-banners/mobia-for-unity.jpg" width="260" alt="Banniere Mob'ia Unity">
-  <strong>Mob'ia / ccomf-unity est la couche produit.</strong><br>
-  Elle presente profils, jobs, artefacts, etats de revue et clients Unity/web/mobile comme une surface de workflow. Un walkthrough utile doit montrer un profil, un job, un artefact revu et la prochaine decision cote Unity.
-</p>
+Lire aussi:
+[faits sources](docs/source-facts.md), [tutoriels](docs/tutorials.md), [QA validation](docs/qa-validation.md).
 
-<br clear="left">
+### Splat Face / Splat Facade Baker
 
-<p>
-  <img align="left" src="assets/project-banners/save-my-lord.jpg" width="260" alt="Banniere pipeline Unity">
-  <strong>Dataset ReviewEval et Splat Face / Splat Facade Baker preparent les entrees.</strong><br>
-  Dataset ReviewEval aide a choisir quelles images sources meritent du temps. Splat Face / Splat Facade Baker transforme ce choix en route 2.5D ou facade plus legere, avec controle de profondeur, cadrage, silhouette et contraintes mobile avant de traiter l'asset comme utile.
-</p>
+Splat Face / Splat Facade Baker explore des routes asset plus legeres en 2.5D et facade. La cible n'est pas d'abord un asset cinematographique lourd. La cible est un candidat que l'on peut juger: cadrage, silhouette, profondeur, lisibilite texture, contraintes mobile et comportement d'import Unity.
 
-<br clear="left">
+Ce projet sert aux tests de facades, au decor de scene leger, aux prototypes visuels et aux premieres experimentations assets compatibles mobile.
 
-<p>
-  <img align="left" src="assets/project-banners/mobia.jpg" width="260" alt="Banniere Mob'ia">
-  <strong>CodexUnity relie le travail agentique a la revue moteur.</strong><br>
-  CodexUnity / CodexToUnity sert de langage de pont pour manifests, dry-runs, controles d'import, artefacts generes et revue humaine. LocalAssetFactory complete cette boucle locale en explicitant preflight, normalisation et handoff Unity.
-</p>
+Lire aussi:
+[proof pack](docs/proof-pack.md), [faits sources](docs/source-facts.md), [index visuel](docs/visual-index.md).
 
-<br clear="left">
+### CodexUnity / CodexToUnity
 
-### Ce Qu'Une Bonne Demo Doit Prouver
+CodexUnity / CodexToUnity est le pont entre le travail assiste par IA et la revue Unity. Il couvre manifests, dry-runs, handoff asset, controles d'import et le langage necessaire pour rendre un asset genere comprehensible dans un workflow moteur.
 
-Une bonne demo est volontairement petite. Exemple: selectionner cinq images de facade autorisees, rejeter les faibles avec raisons, preparer un candidat mobile, le transmettre a Unity avec un manifest, inspecter l'import, puis repartir avec des criteres ecrits pour le run suivant. Si l'asset est trop lourd, mal scale, mal cadre ou difficile a reviser, cela reste utile si la raison est capturee.
+Le point important est le passage de relais: un fichier seul ne suffit pas. Unity a besoin de noms, chemins, attentes d'echelle, notes materiaux, criteres d'import et d'un moyen pour qu'une personne decide la suite.
 
-L'objectif est de rendre le workflow asset testable. Je prefere une decision claire sur la source, la transformation, le controle Unity et l'acceptation a une video polie mais impossible a rejouer.
+Lire aussi:
+[repositories](docs/repositories.md), [flux utilisateur](docs/user-flows.md), [ressources](docs/resources.md).
 
-### Pourquoi Contacter
+### LocalAssetFactory
 
-Cette vitrine est utile pour discuter workflows assets Unity/mobile, revue d'assets IA, evaluation dataset, integration ComfyUI/Trellis/Flux, QA pipeline, validation editor, demos controlees, financement, mission ou poste autour des outils creatifs et de la production temps reel.
+LocalAssetFactory est la partie production locale: preflight, normalisation, validation et preparation orientee Unity avant qu'un asset soit considere pret a revoir.
+
+Il reste proche du travail pratique: fichiers sur disque, artefacts generes, variantes image ou mesh, readiness import et controles repetables.
+
+### Ce Que Contient Ce Repo
+
+Ce repo contient le materiel public de presentation de cette famille de projets:
+
+- vue d'ensemble et one-pager;
+- carte des projets et outils relies;
+- faits sources et notes de preuve publiques;
+- flux utilisateur et tutoriels;
+- syntheses QA et blockers;
+- visuels, bannieres, iconographie et notes de marque;
+- ressources pour utilisateurs, collaborateurs, acheteurs, recruteurs et reviewers techniques.
+
+### Focus Actuel
+
+Le focus actuel est de rendre le projet plus facile a comprendre et a evaluer:
+
+- clarifier le role de Mob'ia / ccomf-unity comme couche produit;
+- documenter comment la revue dataset alimente la preparation asset;
+- garder Splat Face / Splat Facade Baker lisible comme route Unity legere;
+- montrer ou CodexUnity / CodexToUnity intervient dans le handoff;
+- rendre les docs publiques utiles sans exiger l'acces a tous les repos internes.
+
+### Besoins Ouverts
+
+L'aide utile maintenant est concrete:
+
+- revue Unity ou technical-art sur criteres d'import, echelle, nommage, materiaux et contraintes mobile;
+- feedback dataset sur selection des sources et raisons de rejet;
+- feedback produit sur les flows Mob'ia / ccomf-unity, profils, jobs et etats de revue;
+- financement, mission ou poste autour de l'outillage Unity, preparation d'assets IA, pipelines locaux et outils de production creative;
+- personnes capables de lire les docs comme un vrai utilisateur et de signaler ce qui reste flou.
 
 Contact public recommande: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
-
-### Frontiere Publique
-
-Ce repo partage cadrage produit, diagrammes, flux utilisateur, syntheses de preuve, faits sources, scenarios demo et materiel de collaboration. Une evaluation plus poussee doit etre cadree autour d'entrees convenues, de sorties attendues et des criteres exacts d'acceptation ou de rejet.
