@@ -27,9 +27,9 @@
 
 ### Public Repository Links
 
-- [datasetvieweval](https://github.com/charli-dev420/datasetvieweval)
-- [splat-facade-baker](https://github.com/charli-dev420/splat-facade-baker)
-- [codextounity](https://github.com/charli-dev420/codextounity)
+- [Unicorn Who Dev / Dataset ReviewEval](https://github.com/charli-dev420/datasetvieweval)
+- [Unicorn Who Dev / Splat Facade Baker](https://github.com/charli-dev420/splat-facade-baker)
+- [Unicorn Who Dev / CodexToUnity](https://github.com/charli-dev420/codextounity)
 
 ## Francais
 
@@ -56,6 +56,6 @@
 
 ### Liens publics
 
-- [datasetvieweval](https://github.com/charli-dev420/datasetvieweval)
-- [splat-facade-baker](https://github.com/charli-dev420/splat-facade-baker)
-- [codextounity](https://github.com/charli-dev420/codextounity)
+- [Unicorn Who Dev / Dataset ReviewEval](https://github.com/charli-dev420/datasetvieweval)
+- [Unicorn Who Dev / Splat Facade Baker](https://github.com/charli-dev420/splat-facade-baker)
+- [Unicorn Who Dev / CodexToUnity](https://github.com/charli-dev420/codextounity)

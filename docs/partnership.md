@@ -6,54 +6,50 @@
 
 ### Partnership Goal
 
-The project needs partners who care about the unglamorous but decisive part of AI assets: turning visual material into something that can be reviewed, imported, tested, and trusted in Unity or mobile production.
+I am looking for partners who care about the decisive part of AI assets: taking visual material from "interesting output" to "reviewed Unity candidate." The useful work is choosing the source, preparing a mobile-aware asset path, importing it cleanly, and writing down the decision.
 
 ### Useful Partner Profiles
 
-| Partner type | Useful contribution | What the project can provide |
-| --- | --- | --- |
-| Unity/mobile studio | Real constraints, asset acceptance criteria, mobile performance expectations. | Scoped asset review flow, QA checklist, public-safe demo report. |
-| Technical artist | Practical feedback on pivots, scale, materials, collisions, naming, and scene use. | Structured handoff criteria and a repeatable review vocabulary. |
-| ComfyUI / generation expert | Workflow feedback, output discovery practices, failure-mode framing. | Product layer context through Mob'ia / ccomf-unity and bounded demo scenarios. |
-| Dataset or ML reviewer | Source selection rules, dataset hygiene, provenance criteria. | Dataset ReviewEval framing and export/report expectations. |
-| Funder or buyer | Budget for stabilization, packaging, editor validation, and controlled demos. | Decision pack, proof pack, readiness notes, and a clear next validation milestone. |
+**Unity/mobile studio.** Bring a real target scene, device class, polygon or texture expectations, and the acceptance rules your team already uses. The project can provide a scoped asset review flow, a Unity checklist, and a public-safe demo summary.
+
+**Technical artist.** Challenge the parts that usually break production value: pivot, scale, orientation, material slots, collider expectation, naming, LOD thinking, and whether the asset actually belongs in the scene. The project can provide structured handoff criteria and a repeatable review vocabulary.
+
+**ComfyUI / generation expert.** Help tighten source selection, output discovery, failure-mode language, and the point where generation should stop and asset review should begin. Mob'ia / ccomf-unity provides the product context for profiles, jobs, artifacts, and review states.
+
+**Dataset or ML reviewer.** Help make Dataset ReviewEval stricter: provenance, duplication risk, framing, readability, target use, and export discipline. The project can provide a focused review/report shape instead of an open-ended dataset conversation.
+
+**Buyer or funder.** Fund the next controlled proof: one cleared input batch, one Splat Face / Splat Facade Baker or LocalAssetFactory route, one CodexUnity / CodexToUnity handoff where useful, and one Unity import decision. The output should be a written result that can guide the next milestone.
 
 ### Good First Collaboration
 
-A strong first collaboration is narrow: one cleared input set, one expected Unity use, one asset route, one QA checklist, and one written result. That keeps the demo credible and gives both sides a concrete decision.
+The strongest first collaboration is narrow. Pick ten cleared source images, agree the target Unity/mobile use, prepare one asset route, run the import check, and record the accept/fix/reject decision. That gives both sides a real basis for the next conversation.
 
-### What Can Be Shared Publicly
+### What Can Be Shared
 
-Product map, demo agenda, written QA summary, synthetic diagrams, public repository links, and redacted proof cards.
-
-### What Requires Private Review Or NDA
-
-Private assets, internal Unity projects, generated meshes, ComfyUI workflows, local endpoints, raw logs, model choices, and storage or deployment details.
+A collaboration can share the product map, demo agenda, source-selection rules, QA summary, synthetic diagrams, public repository links, and redacted proof cards. Deeper material should be handled through an agreed review scope so the demo stays useful and controlled.
 
 ## Francais
 
-### Objectif partenariat
+### Objectif Partenariat
 
-Le projet cherche des partenaires interesses par la partie decisive des assets IA: transformer du materiel visuel en elements qui peuvent etre revus, importes, testes et fiables dans Unity ou en production mobile.
+Je cherche des partenaires interesses par la partie decisive des assets IA: passer de "sortie interessante" a "candidat Unity revu". Le travail utile consiste a choisir la source, preparer une route asset compatible mobile, importer proprement et ecrire la decision.
 
-### Profils utiles
+### Profils Utiles
 
-| Type de partenaire | Apport utile | Ce que le projet peut fournir |
-| --- | --- | --- |
-| Studio Unity/mobile | Contraintes reelles, criteres d'acceptation asset, attentes performance mobile. | Flow de revue cible, checklist QA, rapport demo public-safe. |
-| Artiste technique | Retours sur pivots, echelle, materiaux, collisions, nommage et usage scene. | Criteres de handoff structures et vocabulaire de revue repetable. |
-| Expert ComfyUI / generation | Retours workflow, decouverte des sorties, cadrage des modes d'echec. | Contexte produit via Mob'ia / ccomf-unity et scenarios demo bornes. |
-| Reviewer dataset ou ML | Regles de selection source, hygiene dataset, criteres de provenance. | Cadrage Dataset ReviewEval et attentes export/rapport. |
-| Financeur ou acheteur | Budget pour stabilisation, packaging, validation editor et demos controlees. | Decision pack, proof pack, notes de diligence et prochain jalon de validation clair. |
+**Studio Unity/mobile.** Apporter une scene cible reelle, une classe d'appareil, des attentes polygones ou textures et les regles d'acceptation deja utilisees par l'equipe. Le projet peut fournir un flow de revue asset cible, une checklist Unity et un resume demo public-safe.
 
-### Bonne premiere collaboration
+**Artiste technique.** Challenger ce qui casse souvent la valeur en production: pivot, echelle, orientation, slots materiaux, attente collider, nommage, logique LOD et place reelle de l'asset dans la scene. Le projet peut fournir des criteres de handoff structures et un vocabulaire de revue repetable.
 
-Une bonne premiere collaboration est etroite: un lot d'entrees autorisees, un usage Unity attendu, une route asset, une checklist QA et un resultat ecrit. Cela garde la demo credible et donne une decision concrete aux deux parties.
+**Expert ComfyUI / generation.** Aider a durcir la selection source, la decouverte des sorties, le langage des modes d'echec et le moment ou la generation doit s'arreter pour laisser place a la revue asset. Mob'ia / ccomf-unity donne le contexte produit pour profils, jobs, artefacts et etats de revue.
 
-### Partage public possible
+**Reviewer dataset ou ML.** Aider a rendre Dataset ReviewEval plus strict: provenance, risque de doublon, cadrage, lisibilite, usage cible et discipline export. Le projet peut fournir une forme de revue/rapport ciblee au lieu d'une discussion dataset ouverte.
 
-Carte produit, agenda demo, resume QA redige, diagrammes synthetiques, liens vers repos publics et cartes de preuve redigees.
+**Acheteur ou financeur.** Financer la prochaine preuve controlee: un lot d'entrees autorisees, une route Splat Face / Splat Facade Baker ou LocalAssetFactory, un handoff CodexUnity / CodexToUnity si utile et une decision d'import Unity. La sortie doit etre un resultat ecrit qui guide le jalon suivant.
 
-### Revue privee ou NDA
+### Bonne Premiere Collaboration
 
-Assets prives, projets Unity internes, meshes generes, workflows ComfyUI, endpoints locaux, logs bruts, choix modeles et details stockage/deploiement.
+La meilleure premiere collaboration est etroite. Choisir dix images sources autorisees, convenir de l'usage Unity/mobile cible, preparer une route asset, lancer le controle d'import et noter la decision accepter/corriger/rejeter. Cela donne aux deux parties une base reelle pour la suite.
+
+### Ce Qui Peut Etre Partage
+
+Une collaboration peut partager la carte produit, l'agenda demo, les regles de selection source, le resume QA, les diagrammes synthetiques, les liens vers repos publics et les cartes de preuve redigees. Les elements plus profonds doivent passer par un scope de revue convenu pour garder une demo utile et controlee.
