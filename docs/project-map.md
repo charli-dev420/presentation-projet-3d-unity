@@ -1,33 +1,53 @@
 # Project Map / Carte projet
 
-[FR](#francais) | [EN](#english)
+[EN](#english) | [FR](#francais)
 
-## Francais
+## English
 
-| Couche | Repo ou surface | Role | Publie ici | Non publie |
+| Layer | Surface | Role | Published here | Good review question |
 | --- | --- | --- | --- | --- |
-| Evaluation dataset | `datasetvieweval` | Revue, scoring et preparation de datasets Flux/Trellis2. | Parcours operateur, criteres qualite, formats expliques. | Datasets, sorties privees, configs locales. |
-| Asset 2.5D | `splat-facade-baker` | Conversion de rendus/maps/splats vers assets legers. | Statut produit, sorties attendues, limites. | Code, meshes, textures privees, datasets. |
-| Pont Unity | `codextounity` | Prototype Codex / Unity / ComfyUI pour generation, controle et import. | Role architecture, flux public, limites. | Workflows prives, endpoints locaux, scripts sensibles. |
-| Suite ComfyUI | Mob'ia / ccomf-unity | Backend et surfaces Unity/web/mobile pour jobs ComfyUI. | Carte produit et besoins. | Routes exactes, configs, tokens, details infra. |
-| Factory locale | LocalAssetFactory | Service local pilote par Codex pour assets et validation Unity. | Concepts et criteres de validation. | Service, workflows, modeles, GLB, chemins locaux. |
+| Dataset evaluation | Dataset ReviewEval / `datasetvieweval` | Review, score, and prepare visual datasets for Flux/Trellis-style work. | Operator path, quality criteria, export formats, public facts. | Can a reviewer explain why an image should be kept, fixed, or rejected? |
+| 2.5D asset preparation | Splat Face / `splat-facade-baker` | Shape visual sources, maps, and depth-card ideas into lightweight Unity/mobile asset candidates. | Product status, expected outputs, asset criteria, demo framing. | What must be true before a 2.5D result is useful in Unity? |
+| Agent bridge | CodexUnity / `codextounity` | Prototype bridge between agent-driven work, ComfyUI-style generation, asset manifests, and Unity import. | Architecture role, dry-run story, prototype boundaries. | Which part of the bridge should be validated in a controlled demo? |
+| Product orchestration | Mob'ia / ccomf-unity | Product layer for profiles, async jobs, artifacts, and Unity/web/mobile clients around ComfyUI workflows. | Public product map, user journeys, partner needs. | Which client, workflow, or artifact review matters most for the buyer? |
+| Local asset loop | LocalAssetFactory | Local service concept for preflight, normalization, manifest creation, and Unity handoff. | Validation concepts, QA checklist, handoff criteria. | Can an asset be accepted or rejected with clear, repeatable criteria? |
 
 ```mermaid
 flowchart LR
-    A[Images et references] --> B[DatasetViewEval]
-    B --> C[Splat Facade Baker]
-    B --> D[Mob'ia]
+    A[Cleared images and references] --> B[Dataset ReviewEval]
+    B --> C[Splat Face]
+    B --> D[Mob'ia / ccomf-unity]
+    G[CodexUnity] --> D
     D --> E[LocalAssetFactory]
-    C --> F[Import Unity]
+    C --> F[Unity / mobile review]
     E --> F
-    G[CodexToUnity] --> D
-    G --> F
+```
+
+### Product Reading
+
+The chain starts with source quality, not generation. It then moves through asset shaping, product orchestration, normalization, and Unity review. The final claim is not "the image looks good"; the final claim is "the asset has a known source, expected use, validation status, and Unity-facing acceptance criteria."
+
+## Francais
+
+| Couche | Surface | Role | Publie ici | Bonne question de revue |
+| --- | --- | --- | --- | --- |
+| Evaluation dataset | Dataset ReviewEval / `datasetvieweval` | Revoir, scorer et preparer des datasets visuels pour des travaux Flux/Trellis. | Parcours operateur, criteres qualite, formats d'export, faits publics. | Un reviewer peut-il expliquer pourquoi garder, corriger ou rejeter une image? |
+| Preparation asset 2.5D | Splat Face / `splat-facade-baker` | Transformer sources visuelles, maps et logique depth-card en candidats legers Unity/mobile. | Statut produit, sorties attendues, criteres asset, cadrage demo. | Qu'est-ce qui doit etre vrai avant qu'un resultat 2.5D soit utile dans Unity? |
+| Pont agent | CodexUnity / `codextounity` | Prototype entre travail pilote par agent, generation type ComfyUI, manifests asset et import Unity. | Role architecture, histoire dry-run, perimetre prototype. | Quelle partie du pont doit etre validee dans une demo controlee? |
+| Orchestration produit | Mob'ia / ccomf-unity | Couche produit pour profils, jobs async, artefacts et clients Unity/web/mobile autour de ComfyUI. | Carte produit publique, parcours, besoins partenaire. | Quel client, workflow ou artefact compte le plus pour l'acheteur? |
+| Boucle asset locale | LocalAssetFactory | Concept de service local pour preflight, normalisation, manifest et handoff Unity. | Concepts de validation, checklist QA, criteres handoff. | Peut-on accepter ou rejeter un asset avec des criteres clairs et repetables? |
+
+```mermaid
+flowchart LR
+    A[Images et references autorisees] --> B[Dataset ReviewEval]
+    B --> C[Splat Face]
+    B --> D[Mob'ia / ccomf-unity]
+    G[CodexUnity] --> D
+    D --> E[LocalAssetFactory]
+    C --> F[Revue Unity / mobile]
+    E --> F
 ```
 
 ### Lecture produit
 
-La chaine cible commence par la qualite des donnees, puis passe par generation/correction, normalisation et import Unity. Le critere final n'est pas "une image jolie", mais un asset documente, controle et utilisable dans un environnement temps reel.
-
-## English
-
-The target chain starts with data quality, then moves through generation or correction, normalization, and Unity import. The final criterion is not a nice image; it is a documented, controlled, usable asset for realtime environments.
+La chaine commence par la qualite des sources, pas par la generation. Elle passe ensuite par la preparation asset, l'orchestration produit, la normalisation et la revue Unity. Le claim final n'est pas "l'image est jolie"; le claim final est "l'asset a une source, un usage attendu, un statut de validation et des criteres d'acceptation Unity".

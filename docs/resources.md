@@ -1,6 +1,35 @@
 # Resources / Ressources
 
-[FR](#francais) | [EN](#english)
+[EN](#english) | [FR](#francais)
+
+## English
+
+### Glossary
+
+| Term | Definition |
+| --- | --- |
+| Dataset ReviewEval | Public-facing name for the dataset review surface represented by `datasetvieweval`. It helps decide which visual sources are worth using. |
+| Splat Face | Product shorthand for the Splat Facade Baker direction: lightweight 2.5D asset preparation for Unity/mobile use. |
+| CodexUnity | Product shorthand for the Codex-to-Unity bridge: agent-directed asset work moving toward Unity manifests and import checks. |
+| Mob'ia / ccomf-unity | Public product names for the ComfyUI-facing product layer: profiles, jobs, artifacts, and Unity/web/mobile clients. |
+| LocalAssetFactory | Local/private validation loop for preflight, normalization, manifest creation, and Unity handoff. |
+| Asset acceptance criteria | The checks that decide whether an output is usable: source, pivot, scale, orientation, bounds, material expectations, performance risk, and QA status. |
+| Public-safe proof | A written or visual summary that explains the result without exposing private assets, endpoints, logs, datasets, or workflows. |
+
+### Internal Reading Paths
+
+| Reader | Best path |
+| --- | --- |
+| Buyer or funder | [One-pager](one-pager.md) -> [Buyer brief](buyer-brief.md) -> [Proof pack](proof-pack.md) -> [Readiness notes](blockers.md) |
+| Technical partner | [Project map](project-map.md) -> [User flows](user-flows.md) -> [QA validation](qa-validation.md) -> [Demo scenarios](demo-scenarios.md) |
+| Recruiter or mission lead | [README](../README.md) -> [Evidence](evidence.md) -> [Source facts](source-facts.md) -> [Partnership brief](partnership.md) |
+| Unity reviewer | [Tutorials](tutorials.md) -> [Visual index](visual-index.md) -> [QA validation](qa-validation.md) -> [Proof pack](proof-pack.md) |
+
+### Public Repository Links
+
+- [datasetvieweval](https://github.com/charli-dev420/datasetvieweval)
+- [splat-facade-baker](https://github.com/charli-dev420/splat-facade-baker)
+- [codextounity](https://github.com/charli-dev420/codextounity)
 
 ## Francais
 
@@ -8,22 +37,25 @@
 
 | Terme | Definition |
 | --- | --- |
-| Dataset review | Evaluation des images candidates avant generation ou bake. |
-| Flux / Trellis2 | Familles d'outils IA utilises comme cible conceptuelle de preparation. |
-| ComfyUI | Environnement de workflow node-based pour generation IA. |
-| Splat / facade bake | Transformation d'une source visuelle en asset 2.5D exploitable. |
-| Prefab Unity | Objet reutilisable dans Unity avec composants et references. |
-| Bounds | Volume d'encombrement utilise pour cadrage et validation. |
+| Dataset ReviewEval | Nom public de la surface de revue dataset representee par `datasetvieweval`. Elle aide a decider quelles sources visuelles meritent d'etre utilisees. |
+| Splat Face | Raccourci produit pour la direction Splat Facade Baker: preparation asset 2.5D legere pour Unity/mobile. |
+| CodexUnity | Raccourci produit pour le pont Codex-to-Unity: travail asset pilote par agent vers manifests Unity et controles d'import. |
+| Mob'ia / ccomf-unity | Noms publics de la couche produit autour de ComfyUI: profils, jobs, artefacts et clients Unity/web/mobile. |
+| LocalAssetFactory | Boucle locale/privee de preflight, normalisation, creation de manifest et handoff Unity. |
+| Criteres d'acceptation asset | Les controles qui decident si une sortie est exploitable: source, pivot, echelle, orientation, bounds, materiaux, risque performance et statut QA. |
+| Preuve public-safe | Resume ecrit ou visuel qui explique le resultat sans exposer assets, endpoints, logs, datasets ou workflows prives. |
 
-### Ressources internes a cette vitrine
+### Parcours de lecture internes
 
-- [Project map](project-map.md)
-- [User flows](user-flows.md)
-- [Tutorials](tutorials.md)
-- [Evidence](evidence.md)
-- [Buyer brief](buyer-brief.md)
-- [Brand charter](brand-charter.md)
+| Lecteur | Parcours conseille |
+| --- | --- |
+| Acheteur ou financeur | [One-pager](one-pager.md) -> [Buyer brief](buyer-brief.md) -> [Proof pack](proof-pack.md) -> [Notes de diligence](blockers.md) |
+| Partenaire technique | [Carte projet](project-map.md) -> [Flux utilisateur](user-flows.md) -> [QA validation](qa-validation.md) -> [Scenarios demo](demo-scenarios.md) |
+| Recruteur ou responsable de mission | [README](../README.md) -> [Preuves](evidence.md) -> [Faits sources](source-facts.md) -> [Partenariat](partnership.md) |
+| Reviewer Unity | [Tutoriels](tutorials.md) -> [Index visuel](visual-index.md) -> [QA validation](qa-validation.md) -> [Proof pack](proof-pack.md) |
 
-## English
+### Liens publics
 
-This repository explains dataset review, AI asset preparation, 2.5D baking, ComfyUI orchestration, and Unity import at a product level. It intentionally excludes private workflows, local endpoints, models, datasets, and generated assets.
+- [datasetvieweval](https://github.com/charli-dev420/datasetvieweval)
+- [splat-facade-baker](https://github.com/charli-dev420/splat-facade-baker)
+- [codextounity](https://github.com/charli-dev420/codextounity)

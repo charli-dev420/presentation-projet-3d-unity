@@ -1,107 +1,126 @@
-# 3D Unity Project Presentation / Presentation projet 3D Unity
+# Mob'ia / ccomf-unity - 3D Unity Asset Pipeline
 
 <p align="center">
-  <img src="assets/brand/daw-core-banner.png" width="520" alt="DAWWW Core banner">
+  <img src="assets/project-banners/mobia.jpg" width="900" alt="Mob'ia project banner">
 </p>
 
-> Public-safe showcase for the 3D, Unity, dataset, and AI-asset pipeline. This repository is a product and partnership surface, not a source-code release.
+<p align="center">
+  <strong>Public showcase for Mob'ia, ccomf-unity, Dataset ReviewEval, Splat Face, CodexUnity, and Unity-ready AI asset workflows.</strong>
+</p>
 
-[FR](#francais) | [EN](#english) | [One-pager](docs/one-pager.md) | [Public scope](docs/public-scope.md)
-
-## Francais
-
-### Positionnement
-
-Cette vitrine presente l'axe **3D / Unity / assets IA**: preparer des donnees visuelles, evaluer leur qualite, produire ou corriger des assets, puis les importer dans Unity avec des criteres exploitables.
-
-Elle regroupe plusieurs repos reels. Le but n'est pas de publier leurs implementations, mais de donner a un utilisateur, acheteur ou collaborateur la documentation necessaire pour comprendre la chaine complete.
-
-### Lire dans le bon ordre
-
-| Besoin | Document |
-| --- | --- |
-| Comprendre la chaine complete | [One-pager](docs/one-pager.md), [carte projet](docs/project-map.md) |
-| Voir l'etat actuel | [Statut courant](docs/current-status.md), [notes de diligence](docs/blockers.md) |
-| Voir les repos reels | [Repos couverts](docs/repositories.md), [index des preuves](docs/public-proof-index.md) |
-| Lire les preuves et la QA | [Proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [visuels](docs/visual-index.md) |
-| Suivre un parcours utilisateur | [Flux utilisateur](docs/user-flows.md), [tutoriels](docs/tutorials.md) |
-| Evaluer la maturite | [Preuves](docs/evidence.md), [faits sources](docs/source-facts.md), [roadmap](docs/roadmap.md) |
-| Decider comme acheteur ou collaborateur | [Buyer brief](docs/buyer-brief.md), [partenariats](docs/partnership.md) |
-| Preparer une demo ciblee | [Decision pack](docs/decision-pack.md) |
-| Identifier la marque | [Charte](docs/brand-charter.md), [iconographie](docs/iconography.md), [assets](assets/README.md) |
-
-### Repos reels couverts
-
-- [`charli-dev420/datasetvieweval`](https://github.com/charli-dev420/datasetvieweval) - evaluation et preparation de datasets Flux/Trellis2.
-- [`charli-dev420/splat-facade-baker`](https://github.com/charli-dev420/splat-facade-baker) - pipeline 2.5D pour assets legers.
-- [`charli-dev420/codextounity`](https://github.com/charli-dev420/codextounity) - pont public Codex / Unity / ComfyUI.
-- **Mob'ia / ccomf-unity** - suite produit Unity, web, mobile et backend ComfyUI, privee.
-- pipeline local **LocalAssetFactory / Asset Factory** - orchestration locale, non publiee comme source.
-
-### Faits publics verifies
-
-Verification du 2026-06-29:
-
-| Surface | Signal public |
-| --- | --- |
-| DatasetViewEval | Repo public verifie a `2c9f37e`, licence MIT, app desktop locale, exports JSON/CSV/Markdown, baseline de tests documentee. |
-| Splat Facade Baker | Repo public verifie a `b250387`, licence MIT, pipeline 2.5D pre-MVP avec cartes de profondeur et import Unity decrit. |
-| CodexToUnity | Repo public verifie a `db72a01`, prototype experimental pour pont Codex / Unity / ComfyUI. |
-| Mob'ia / ccomf-unity | Produit prive presente sous forme de carte publique: profils, jobs, artefacts, clients Unity/web/mobile. |
-
-### Ce qui est public ici
-
-Documentation produit, carte multi-repos, flux utilisateurs, tutoriels sans code sensible, preuves synthetisees, limites, roadmap, charte visuelle DAWWW Core et brief de collaboration.
-
-### Ce qui reste exclu
-
-Aucun code critique, modele, poids IA, dataset, mesh prive, workflow ComfyUI prive, endpoint local, configuration GPU, build Unity, cache, fichier `Library`, fichier `Temp`, log brut ou sortie de generation n'est publie ici.
-
-### Recherche
-
-Le projet recherche des partenaires Unity/mobile 3D, des retours de production sur assets IA, du financement pour stabilisation/QA/packaging, et des collaborations autour de dataset review, ComfyUI, Trellis, Flux et import temps reel.
-
-Contact public recommande: [GitHub charli-dev420](https://github.com/charli-dev420).
+<p align="center">
+  <a href="#english">English</a> ·
+  <a href="#francais">Francais</a> ·
+  <a href="docs/one-pager.md">One-pager</a> ·
+  <a href="docs/project-map.md">Project map</a> ·
+  <a href="docs/demo-scenarios.md">Demo scenarios</a> ·
+  <a href="docs/buyer-brief.md">Buyer brief</a>
+</p>
 
 ## English
 
-### Positioning
+### What This Repository Is
 
-This showcase presents the **3D / Unity / AI asset** track: preparing visual data, evaluating quality, producing or correcting assets, and importing them into Unity with usable constraints.
+This repository presents the 3D / Unity / AI-asset side of my work. The public product names are **Mob'ia** and **ccomf-unity**. The surrounding tools form a practical chain: review source material, prepare or generate assets, normalize them, hand them to Unity, then judge whether the result is usable for a real scene or mobile constraint.
 
-It groups several real repositories. The goal is not to publish their implementation, but to provide the documentation a user, buyer, or collaborator needs to understand the full chain.
+The important idea is simple: an AI-generated image, splat, mesh, or texture is not production material by default. It becomes useful only when it has context, review notes, provenance, size expectations, import criteria, QA, and a workflow a collaborator can repeat.
 
-### Start here
+### Public Entry Points
 
-| Need | Document |
-| --- | --- |
-| Understand the pipeline | [One-pager](docs/one-pager.md), [project map](docs/project-map.md) |
-| Review current state | [Current status](docs/current-status.md), [readiness notes](docs/blockers.md) |
-| Review real repositories | [Covered repositories](docs/repositories.md), [public proof index](docs/public-proof-index.md) |
-| Read proof and QA | [Proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [visuals](docs/visual-index.md) |
-| Follow user workflows | [User flows](docs/user-flows.md), [tutorials](docs/tutorials.md) |
-| Evaluate maturity | [Evidence](docs/evidence.md), [source facts](docs/source-facts.md), [roadmap](docs/roadmap.md) |
-| Decide as buyer or collaborator | [Buyer brief](docs/buyer-brief.md), [partnership](docs/partnership.md) |
-| Prepare a scoped demo | [Decision pack](docs/decision-pack.md) |
-| Identify the brand | [Brand charter](docs/brand-charter.md), [iconography](docs/iconography.md), [assets](assets/README.md) |
+Use the [one-pager](docs/one-pager.md) for the product story and the [project map](docs/project-map.md) for the multi-repo view. The [user flows](docs/user-flows.md), [tutorials](docs/tutorials.md), and [demo scenarios](docs/demo-scenarios.md) show how the pipeline is meant to be read by a dataset operator, Unity integrator, buyer, partner, or mission lead.
 
-### Covered real repositories
+For evaluation, read [source facts](docs/source-facts.md), [evidence](docs/evidence.md), [public proof index](docs/public-proof-index.md), [proof pack](docs/proof-pack.md), and [QA validation](docs/qa-validation.md). For commercial or collaboration decisions, use the [buyer brief](docs/buyer-brief.md), [partnership brief](docs/partnership.md), [decision pack](docs/decision-pack.md), and [resources](docs/resources.md).
 
-- [`charli-dev420/datasetvieweval`](https://github.com/charli-dev420/datasetvieweval) - Flux/Trellis2 dataset evaluation and preparation.
-- [`charli-dev420/splat-facade-baker`](https://github.com/charli-dev420/splat-facade-baker) - lightweight 2.5D asset pipeline.
-- [`charli-dev420/codextounity`](https://github.com/charli-dev420/codextounity) - public Codex / Unity / ComfyUI bridge.
-- **Mob'ia / ccomf-unity** - private Unity, web, mobile, and ComfyUI backend product suite.
-- local **LocalAssetFactory / Asset Factory** - local orchestration, not published as source.
+Visuals and identity live in [visual index](docs/visual-index.md), [assets](assets/README.md), [brand charter](docs/brand-charter.md), and [iconography](docs/iconography.md).
 
-### Verified Public Facts
+### Product Tracks
 
-Checked on 2026-06-29:
+<p>
+  <img align="left" src="assets/project-banners/mobia-for-unity.jpg" width="260" alt="Mob'ia for Unity banner">
+  <strong>Mob'ia / ccomf-unity is the product layer.</strong><br>
+  It frames profiles, jobs, artifacts, review states, Unity/web/mobile clients, and ComfyUI-style workflows as a product surface rather than a folder of generation experiments.
+</p>
 
-| Surface | Public signal |
-| --- | --- |
-| DatasetViewEval | Public repo checked at `2c9f37e`, MIT license, local desktop app, JSON/CSV/Markdown exports, documented test baseline. |
-| Splat Facade Baker | Public repo checked at `b250387`, MIT license, pre-MVP 2.5D pipeline with depth-card flow and Unity import described. |
-| CodexToUnity | Public repo checked at `db72a01`, experimental bridge prototype for Codex / Unity / ComfyUI. |
-| Mob'ia / ccomf-unity | Private product surfaced as public map: profiles, jobs, artifacts, Unity/web/mobile clients. |
+<br clear="left">
 
-This repository publishes product documentation, workflows, tutorials, summarized evidence, limits, roadmap, DAWWW Core visual identity, and collaboration material. It does not publish critical source code, models, private datasets, generated assets, workflows, endpoints, local configs, Unity builds, logs, or caches.
+<p>
+  <img align="left" src="assets/project-banners/save-my-lord.jpg" width="260" alt="Unity asset pipeline banner">
+  <strong>Dataset ReviewEval and Splat Face prepare the inputs.</strong><br>
+  Dataset ReviewEval helps decide which images are worth using. Splat Face / Splat Facade Baker explores lighter 2.5D candidates, depth-card flows, facade preparation, and Unity/mobile-friendly asset thinking.
+</p>
+
+<br clear="left">
+
+<p>
+  <img align="left" src="assets/project-banners/mobia.jpg" width="260" alt="Mob'ia banner">
+  <strong>CodexUnity connects agent work to engine review.</strong><br>
+  CodexUnity / CodexToUnity is the bridge language: manifests, dry-runs, import checks, generated artifacts, and human review. The goal is a controlled handoff, not a magic button.
+</p>
+
+<br clear="left">
+
+### Why Contact
+
+This showcase is useful if you want to discuss a Unity/mobile asset workflow, AI asset review, dataset evaluation, ComfyUI/Trellis/Flux integration, pipeline QA, editor validation, a controlled demo, funding, mission work, or a role around creative tools and real-time production.
+
+The public material gives enough structure to form an opinion: what the pipeline is, what is already documented, where proof exists, how assets move, and which questions should be answered in a private demo or collaboration scope.
+
+Public contact route: [GitHub charli-dev420](https://github.com/charli-dev420).
+
+### Public Boundary
+
+This repository shares product framing, public diagrams, user flows, proof summaries, source facts, demo scenarios, and collaboration material. Private datasets, generated assets, Unity builds, ComfyUI workflows, endpoints, GPU configuration, raw logs, caches, and internal storage details stay outside the public repo.
+
+## Francais
+
+### Ce Que Presente Ce Repo
+
+Ce repo presente l'axe 3D / Unity / assets IA de mon travail. Les noms publics sont **Mob'ia** et **ccomf-unity**. Les outils autour forment une chaine pratique: revoir les sources, preparer ou generer des assets, normaliser, transmettre vers Unity, puis juger si le resultat est exploitable dans une scene ou une contrainte mobile.
+
+L'idee importante est simple: une image IA, un splat, un mesh ou une texture ne devient pas automatiquement un asset de production. Il faut du contexte, une revue, une provenance, des attentes de taille, des criteres d'import, de la QA et un workflow qu'un collaborateur peut rejouer.
+
+### Points D'Entree Publics
+
+Le [one-pager](docs/one-pager.md) donne l'histoire produit et la [carte projet](docs/project-map.md) presente la lecture multi-repos. Les [flux utilisateur](docs/user-flows.md), [tutoriels](docs/tutorials.md) et [scenarios demo](docs/demo-scenarios.md) montrent comment lire la chaine comme operateur dataset, integrateur Unity, acheteur, partenaire ou responsable mission.
+
+Pour evaluer, lire [faits sources](docs/source-facts.md), [preuves](docs/evidence.md), [public proof index](docs/public-proof-index.md), [proof pack](docs/proof-pack.md) et [QA validation](docs/qa-validation.md). Pour une decision commerciale ou collaboration, utiliser [buyer brief](docs/buyer-brief.md), [partenariat](docs/partnership.md), [decision pack](docs/decision-pack.md) et [ressources](docs/resources.md).
+
+Les visuels et l'identite sont dans [index visuel](docs/visual-index.md), [assets](assets/README.md), [charte](docs/brand-charter.md) et [iconographie](docs/iconography.md).
+
+### Axes Produit
+
+<p>
+  <img align="left" src="assets/project-banners/mobia-for-unity.jpg" width="260" alt="Banniere Mob'ia Unity">
+  <strong>Mob'ia / ccomf-unity est la couche produit.</strong><br>
+  Elle transforme profils, jobs, artefacts, etats de revue, clients Unity/web/mobile et workflows ComfyUI en surface produit lisible, pas en simple dossier d'experimentations.
+</p>
+
+<br clear="left">
+
+<p>
+  <img align="left" src="assets/project-banners/save-my-lord.jpg" width="260" alt="Banniere pipeline Unity">
+  <strong>Dataset ReviewEval et Splat Face preparent les entrees.</strong><br>
+  Dataset ReviewEval aide a decider quelles images valent la peine d'etre exploitees. Splat Face / Splat Facade Baker explore des candidats 2.5D plus legers, des depth-cards, la preparation de facades et une logique compatible Unity/mobile.
+</p>
+
+<br clear="left">
+
+<p>
+  <img align="left" src="assets/project-banners/mobia.jpg" width="260" alt="Banniere Mob'ia">
+  <strong>CodexUnity relie le travail agentique a la revue moteur.</strong><br>
+  CodexUnity / CodexToUnity sert de langage de pont: manifests, dry-runs, controles d'import, artefacts generes et revue humaine. L'objectif est un handoff controle, pas un bouton magique.
+</p>
+
+<br clear="left">
+
+### Pourquoi Contacter
+
+Cette vitrine est utile pour discuter workflow asset Unity/mobile, revue d'assets IA, evaluation dataset, integration ComfyUI/Trellis/Flux, QA pipeline, validation editor, demo controlee, financement, mission ou poste autour des outils creatifs et de la production temps reel.
+
+Le materiel public donne assez de structure pour se faire une opinion: ce qu'est la chaine, ce qui est documente, ou se trouvent les preuves, comment les assets circulent et quelles questions doivent etre traitees en demo privee ou cadrage collaboration.
+
+Contact public recommande: [GitHub charli-dev420](https://github.com/charli-dev420).
+
+### Frontiere Publique
+
+Ce repo partage cadrage produit, diagrammes publics, flux utilisateur, syntheses de preuve, faits sources, scenarios demo et materiel de collaboration. Datasets prives, assets generes, builds Unity, workflows ComfyUI, endpoints, configuration GPU, logs bruts, caches et details de stockage internes restent hors du repo public.
