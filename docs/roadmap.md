@@ -7,7 +7,7 @@
 | Horizon | Objectif | Sortie publique attendue |
 | --- | --- | --- |
 | Court terme | Finaliser les docs de comprehension et evaluation. | One-pager, flux, tutoriels, preuves. |
-| Court terme | Clarifier la carte multi-repos. | Role exact de DatasetViewEval, SFB, CodexToUnity, Unit2Comf, LocalAssetFactory. |
+| Court terme | Clarifier la carte multi-repos. | Role exact de DatasetViewEval, SFB, CodexToUnity, Mob'ia / ccomf-unity, LocalAssetFactory. |
 | Moyen terme | Stabiliser les criteres de validation asset. | Checklists publiques et exemples rediges. |
 | Moyen terme | Renforcer import Unity et contraintes mobile. | Demos ciblees et preuves redigees. |
 | Long terme | Packaging partenaire. | Kit d'evaluation, NDA optionnel, demo controlee, documentation financeur. |

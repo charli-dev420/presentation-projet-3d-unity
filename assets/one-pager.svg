@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">3D Unity AI asset pipeline one-pager</title>
-  <desc id="desc">Public-safe overview of DatasetViewEval, Splat Facade Baker, CodexToUnity, Unit2Comf, LocalAssetFactory, and Unity import.</desc>
+  <desc id="desc">Public-safe overview of DatasetViewEval, Splat Facade Baker, CodexToUnity, Mob'ia, LocalAssetFactory, and Unity import.</desc>
   <rect width="1200" height="675" fill="#0f1419"/>
   <rect x="48" y="48" width="1104" height="579" rx="18" fill="#151c24" stroke="#6ee7b7" stroke-width="3"/>
   <text x="84" y="112" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">3D / Unity / AI Assets</text>
@@ -14,7 +14,7 @@
     <text x="316" y="318" fill="#cbd5e1" font-size="16">SFB 2.5D</text>
     <rect x="510" y="240" width="180" height="110" rx="12" fill="#22313c"/>
     <text x="536" y="285" fill="#ffffff" font-size="22" font-weight="700">Jobs</text>
-    <text x="536" y="318" fill="#cbd5e1" font-size="16">Unit2Comf</text>
+    <text x="536" y="318" fill="#cbd5e1" font-size="16">Mob'ia</text>
     <rect x="730" y="240" width="180" height="110" rx="12" fill="#22313c"/>
     <text x="756" y="285" fill="#ffffff" font-size="22" font-weight="700">Factory</text>
     <text x="756" y="318" fill="#cbd5e1" font-size="16">Local assets</text>

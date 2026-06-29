@@ -10,7 +10,7 @@
 | --- | --- |
 | Probleme | Transformer des donnees visuelles ou sorties IA en assets Unity utilisables. |
 | Solution | Pipeline dataset review, bake/generation, normalisation, import et validation. |
-| Repos | DatasetViewEval, Splat Facade Baker, CodexToUnity, Unit2Comf, LocalAssetFactory. |
+| Repos | DatasetViewEval, Splat Facade Baker, CodexToUnity, Mob'ia / ccomf-unity, LocalAssetFactory. |
 | Preuves | Repos publics, cartes produit, criteres de validation, limites explicites. |
 | Besoins | Partenaires Unity, cas d'usage reels, QA, financement, packaging. |
 

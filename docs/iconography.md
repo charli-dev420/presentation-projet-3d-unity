@@ -9,7 +9,7 @@
 | Image stack | Dataset, references, selection. | DatasetViewEval. |
 | Gauge | Scoring et qualite. | Revue operateur. |
 | Cube | Asset 3D ou 2.5D. | SFB, LocalAssetFactory. |
-| Nodes | Workflow IA. | ComfyUI, Unit2Comf. |
+| Nodes | Workflow IA. | ComfyUI, Mob'ia. |
 | Unity axes | Import, pivot, echelle, bounds. | Unity integration. |
 | Shield | Perimetre public-safe. | Evidence et publication. |
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="580" viewBox="0 0 1100 580" role="img" aria-labelledby="title desc">
+  <title id="title">Unity QA Checklist</title>
+  <desc id="desc">Public-safe checklist for Unity asset readiness.</desc>
+  <rect width="1100" height="580" fill="#ffffff"/>
+  <text x="64" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">Unity asset QA checklist</text>
+  <text x="64" y="104" font-family="Arial, sans-serif" font-size="16" fill="#526070">Checklist used for scoped demos and partner review.</text>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#172033">
+    <rect x="64" y="150" width="972" height="330" rx="18" fill="#f7f9fb" stroke="#d8e0ea"/>
+    <circle cx="110" cy="210" r="14" fill="#2f9e44"/><text x="142" y="217">Imports without missing files</text>
+    <circle cx="110" cy="260" r="14" fill="#2f9e44"/><text x="142" y="267">Scale, pivot, bounds, and orientation reviewed</text>
+    <circle cx="110" cy="310" r="14" fill="#2f9e44"/><text x="142" y="317">Materials and textures mapped or intentionally absent</text>
+    <circle cx="110" cy="360" r="14" fill="#2f9e44"/><text x="142" y="367">Triangle count and profile fit the target platform</text>
+    <circle cx="110" cy="410" r="14" fill="#2f9e44"/><text x="142" y="417">Manifest explains source, license, and review status</text>
+  </g>
+  <text x="64" y="530" font-family="Arial, sans-serif" font-size="15" fill="#526070">No private assets, run ids, local paths, endpoints, logs, or model settings are included.</text>
+</svg>

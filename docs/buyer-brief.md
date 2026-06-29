@@ -11,7 +11,7 @@ La valeur du projet est de reduire l'ecart entre sortie IA et asset Unity exploi
 ### Ce qui est deja concret
 
 - Repos publics pour DatasetViewEval, Splat Facade Baker et CodexToUnity.
-- Repo prive Unit2Comf identifie comme suite backend/frontends autour de ComfyUI.
+- Mob'ia / ccomf-unity identifie comme suite backend/frontends autour de ComfyUI.
 - Surface locale LocalAssetFactory identifiee pour orchestration et validation Unity.
 - Documentation publique structuree pour comprendre le pipeline sans code sensible.
 
