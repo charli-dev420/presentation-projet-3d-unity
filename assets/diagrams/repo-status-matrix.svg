@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620" role="img" aria-labelledby="title desc">
   <title id="title">Repository Status Matrix</title>
-  <desc id="desc">Public-safe matrix of repositories and product surfaces.</desc>
+  <desc id="desc">Matrix of repositories and product surfaces.</desc>
   <rect width="1180" height="620" fill="#f7f9fb"/>
   <text x="56" y="70" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">Repository and product status</text>
   <g font-family="Arial, sans-serif" font-size="16">
@@ -18,9 +18,9 @@
     </g>
     <g fill="#172033">
       <text x="82" y="224" font-weight="700">DatasetViewEval</text><text x="350" y="224">Public repo, MIT, tests</text><text x="645" y="224">Dataset review</text><text x="920" y="224">Docs + repo</text>
-      <text x="82" y="296" font-weight="700">SFB</text><text x="350" y="296">Public repo, MIT, pre-MVP</text><text x="645" y="296">2.5D asset prep</text><text x="920" y="296">Docs + repo</text>
-      <text x="82" y="368" font-weight="700">CodexToUnity</text><text x="350" y="368">Public prototype</text><text x="645" y="368">Unity bridge demo</text><text x="920" y="368">Scoped</text>
-      <text x="82" y="440" font-weight="700">Mob'ia / ccomf-unity</text><text x="350" y="440">Private product</text><text x="645" y="440">ComfyUI product layer</text><text x="920" y="440">Map only</text>
+      <text x="82" y="296" font-weight="700">Splat Face</text><text x="350" y="296">Public repo, MIT, main route</text><text x="645" y="296">2.5D asset prep</text><text x="920" y="296">Docs + repo</text>
+      <text x="82" y="368" font-weight="700">CodexToUnity</text><text x="350" y="368">Public prototype</text><text x="645" y="368">Unity bridge review</text><text x="920" y="368">Scoped</text>
+      <text x="82" y="440" font-weight="700">Mob'ia / ccomf-unity</text><text x="350" y="440">Product layer</text><text x="645" y="440">ComfyUI workflow surface</text><text x="920" y="440">Map</text>
       <text x="82" y="512" font-weight="700">LocalAssetFactory</text><text x="350" y="512">Local loop</text><text x="645" y="512">Asset handoff</text><text x="920" y="512">Diagram</text>
     </g>
   </g>

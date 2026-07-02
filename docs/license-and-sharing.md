@@ -4,28 +4,24 @@
 
 ## English
 
-| Surface | Public signal | Sharing rule |
-| --- | --- | --- |
-| Dataset ReviewEval | MIT license in the public repository. | Public documentation and links can be reused according to the repository license. |
-| Splat Face / Splat Facade Baker | MIT license in the public repository. | Public documentation and links can be reused according to the repository license. |
-| CodexUnity / CodexToUnity | Public experimental prototype, not presented as a supported release. | Documentation sharing only; deeper review is scoped case by case. |
-| Mob'ia / ccomf-unity | Private product; selected surfaces may be source-available noncommercial only by explicit agreement. | Public sharing is limited to product maps, rewritten evidence, and agreed demo summaries. |
-| LocalAssetFactory | Local/private pipeline not published as source. | Share only diagrams, checklists, public-safe summaries, or scoped demos. |
+### Sharing Model
 
-### Sharing Principle
+This repository shares presentation material: rewritten summaries, diagrams, quality criteria, validation notes, and links to public repositories.
 
-Public materials should help evaluation without transferring private assets, private workflows, local infrastructure details, or rights-sensitive model/dataset material.
+Public repositories keep their own license terms. This showcase does not change the license of Dataset ReviewEval, Splat Face / Splat Facade Baker, CodexUnity / CodexToUnity, Mob'ia / ccomf-unity, LocalAssetFactory, third-party tools, models, datasets, or generated material.
+
+### Practical Rule
+
+Use this repo to understand the project family and discuss collaboration. Use each source repository or written agreement for actual code, asset, model, dataset, or distribution rights.
 
 ## Francais
 
-| Surface | Signal public | Regle de partage |
-| --- | --- | --- |
-| Dataset ReviewEval | Licence MIT dans le repo public. | Documentation et liens publics reutilisables selon la licence du repo. |
-| Splat Face / Splat Facade Baker | Licence MIT dans le repo public. | Documentation et liens publics reutilisables selon la licence du repo. |
-| CodexUnity / CodexToUnity | Prototype experimental public, pas presente comme release supportee. | Partage documentation seulement; revue plus profonde cadree cas par cas. |
-| Mob'ia / ccomf-unity | Produit prive; certaines surfaces peuvent etre source-available noncommercial seulement par accord explicite. | Partage public limite aux cartes produit, preuves redigees et resumes demo convenus. |
-| LocalAssetFactory | Pipeline local/prive non publie comme source. | Partage uniquement sous forme de diagrammes, checklists, resumes public-safe ou demos ciblees. |
+### Modele De Partage
 
-### Principe de partage
+Ce repo partage du materiel de presentation: syntheses reecrites, diagrammes, criteres qualite, notes de validation et liens vers les repos publics.
 
-Les supports publics doivent aider l'evaluation sans transferer assets prives, workflows prives, details d'infrastructure locale ou materiel modele/dataset sensible aux droits.
+Les repos publics gardent leurs propres termes de licence. Cette vitrine ne modifie pas la licence de Dataset ReviewEval, Splat Face / Splat Facade Baker, CodexUnity / CodexToUnity, Mob'ia / ccomf-unity, LocalAssetFactory, outils tiers, modeles, datasets ou materiel genere.
+
+### Regle Pratique
+
+Utiliser ce repo pour comprendre la famille de projets et discuter collaboration. Utiliser chaque repo source ou accord ecrit pour les droits reels sur code, asset, modele, dataset ou distribution.

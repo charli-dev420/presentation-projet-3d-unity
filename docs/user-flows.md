@@ -4,68 +4,44 @@
 
 ## English
 
-### 1. Buyer, Producer, Or Mission Lead
+### 1. Unity Or Technical-Art Reviewer
 
-1. Read the [one-pager](one-pager.md) to understand the product promise.
-2. Open the [project map](project-map.md) and identify which surface matters: dataset review, 2.5D assets, CodexUnity bridge, Mob'ia/ccomf-unity product layer, or Unity handoff.
-3. Review [source facts](source-facts.md) and [evidence](evidence.md) to separate public repositories, private product surfaces, and local validation concepts.
-4. Pick one demo scenario from [demo-scenarios](demo-scenarios.md).
-5. Define success criteria before any private access: accepted input, expected output, QA evidence, and what can be shared afterward.
+Start with [Splat Face](projects/splat-face.md), then read [QA validation](qa-validation.md) and [Unity QA checklist](../assets/diagrams/unity-qa-checklist.svg). The useful review is concrete: does the candidate have a clear source, expected scene role, scale, orientation, bounds, material state, mobile weight, and acceptance decision?
 
 ### 2. Dataset Operator
 
-1. Gather cleared candidate images and references.
-2. Use Dataset ReviewEval criteria: readability, framing, coherence, target use, duplication risk, and provenance.
-3. Mark each source as usable, needs work, or rejected.
-4. Export a review summary that another person can read without opening the private dataset.
-5. Hand the accepted batch to Splat Face, Mob'ia/ccomf-unity, or a controlled generation/bake step.
+Start with [Dataset ReviewEval](projects/dataset-revieweval.md). Review a small image set, mark keep/fix/reject/revisit, export notes, and pass only useful sources to Splat Face or another asset route. The output should explain why the source is worth using.
 
-### 3. Unity Technical Artist Or Integrator
+### 3. Product Or Collaboration Reviewer
 
-1. Start from the asset intent: facade, 2.5D card, prop, prefab candidate, scene element, or test object.
-2. Check pivot, scale, orientation, bounds, triangle budget, material slots, texture expectations, and naming.
-3. Import or review the Unity-facing manifest rather than trusting a visual thumbnail.
-4. Test readability, performance risk, collisions when needed, and mobile constraints.
-5. Record the result as accepted, accepted with notes, or needs another generation/normalization pass.
+Read [overview](overview.md), [project map](project-map.md), [Mob'ia / ccomf-unity](projects/mobia-ccomf-unity.md), and [project evaluation](project-evaluation.md). The goal is to understand how profiles, jobs, artifacts, clients, and review states make asset work easier to follow.
 
-### 4. Product Partner For Mob'ia / ccomf-unity
+### 4. Codex / Unity Workflow Reviewer
 
-1. Choose the user role: artist, reviewer, producer, admin, or Unity client.
-2. Walk through a profile, job, artifact, review, and handoff without exposing routes or storage internals.
-3. Decide which client surface matters first: Unity, web, mobile, or backend review tools.
-4. Map one integration point and one QA output that would make the product easier to adopt.
-5. Scope a private demo or NDA review only after the public story is clear.
+Read [CodexUnity / CodexToUnity](projects/codexunity-codextounity.md), [validation scenarios](validation-scenarios.md), and [LocalAssetFactory](projects/local-asset-factory.md). Check whether the handoff makes the asset candidate understandable inside a Unity workflow.
+
+### 5. Funder, Mission Lead, Or Recruiter
+
+Read [one-pager](one-pager.md), [proof pack](proof-pack.md), [current status](current-status.md), and [partnership](partnership.md). The useful question is where support can create the next strong proof: source quality, Splat Face asset criteria, Unity import review, product workflow, or documentation.
 
 ## Francais
 
-### 1. Acheteur, producteur ou responsable de mission
+### 1. Reviewer Unity Ou Technical-Art
 
-1. Lire le [one-pager](one-pager.md) pour comprendre la promesse produit.
-2. Ouvrir la [carte projet](project-map.md) et identifier la surface utile: revue dataset, assets 2.5D, pont CodexUnity, couche Mob'ia/ccomf-unity ou handoff Unity.
-3. Lire les [faits sources](source-facts.md) et les [preuves](evidence.md) pour separer repos publics, surfaces produit privees et concepts de validation locale.
-4. Choisir un scenario dans les [scenarios demo](demo-scenarios.md).
-5. Definir les criteres de succes avant tout acces prive: entree acceptee, sortie attendue, preuve QA et elements partageables ensuite.
+Commencer par [Splat Face](projects/splat-face.md), puis lire [QA validation](qa-validation.md) et [Unity QA checklist](../assets/diagrams/unity-qa-checklist.svg). La revue utile est concrete: le candidat a-t-il une source claire, un role scene attendu, une echelle, orientation, bounds, etat materiau, poids mobile et decision d'acceptation ?
 
-### 2. Operateur dataset
+### 2. Operateur Dataset
 
-1. Rassembler des images et references autorisees.
-2. Appliquer les criteres Dataset ReviewEval: lisibilite, cadrage, coherence, usage cible, risque de doublon et provenance.
-3. Marquer chaque source comme exploitable, a reprendre ou a rejeter.
-4. Exporter un resume de revue lisible sans ouvrir le dataset prive.
-5. Transmettre le lot accepte a Splat Face, Mob'ia/ccomf-unity ou a une etape controlee de generation/bake.
+Commencer par [Dataset ReviewEval](projects/dataset-revieweval.md). Revoir un petit lot d'images, marquer garder/corriger/refuser/revoir, exporter des notes et envoyer seulement les sources utiles vers Splat Face ou une autre route asset. La sortie doit expliquer pourquoi la source merite d'etre utilisee.
 
-### 3. Artiste technique ou integrateur Unity
+### 3. Reviewer Produit Ou Collaboration
 
-1. Partir de l'intention asset: facade, carte 2.5D, prop, candidat prefab, element de scene ou objet test.
-2. Verifier pivot, echelle, orientation, bounds, budget triangles, materiaux, textures attendues et nommage.
-3. Revoir le manifest ou l'import Unity plutot qu'une simple miniature visuelle.
-4. Tester lisibilite, risque performance, collisions si necessaire et contraintes mobile.
-5. Noter le resultat: accepte, accepte avec notes ou a reprendre en generation/normalisation.
+Lire [overview](overview.md), [project map](project-map.md), [Mob'ia / ccomf-unity](projects/mobia-ccomf-unity.md) et [project evaluation](project-evaluation.md). Le but est de comprendre comment profils, jobs, artefacts, clients et etats de revue rendent le travail asset plus facile a suivre.
 
-### 4. Partenaire produit Mob'ia / ccomf-unity
+### 4. Reviewer Workflow Codex / Unity
 
-1. Choisir le role utilisateur: artiste, reviewer, producteur, admin ou client Unity.
-2. Parcourir profil, job, artefact, revue et handoff sans exposer routes ni stockage interne.
-3. Decider quelle surface client compte d'abord: Unity, web, mobile ou outils backend.
-4. Identifier un point d'integration et une sortie QA qui facilitent l'adoption.
-5. Cadrer une demo privee ou une revue NDA seulement apres clarification du recit public.
+Lire [CodexUnity / CodexToUnity](projects/codexunity-codextounity.md), [validation scenarios](validation-scenarios.md) et [LocalAssetFactory](projects/local-asset-factory.md). Verifier si le handoff rend le candidat asset comprehensible dans un workflow Unity.
+
+### 5. Financeur, Responsable Mission Ou Recruteur
+
+Lire [one-pager](one-pager.md), [proof pack](proof-pack.md), [current status](current-status.md) et [partnership](partnership.md). La question utile est de savoir ou le support peut creer la prochaine preuve forte: qualite source, criteres asset Splat Face, revue import Unity, workflow produit ou documentation.

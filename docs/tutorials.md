@@ -6,74 +6,42 @@
 
 ### Tutorial 1 - Read The Pipeline In 20 Minutes
 
-1. Start with the [one-pager](one-pager.md) for the product promise.
-2. Use the [project map](project-map.md) to place Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia/ccomf-unity, and LocalAssetFactory.
-3. Open [evidence](evidence.md) and [source facts](source-facts.md) to see what is public, private, verified, or framed for demo.
-4. Finish with [QA validation](qa-validation.md) so the discussion stays grounded in acceptance criteria, not only visual appeal.
+Open [overview](overview.md), then [Splat Face](projects/splat-face.md), then [project map](project-map.md). The key idea is source -> candidate -> Unity review -> written decision.
 
-### Tutorial 2 - Prepare A Dataset For Asset Work
+### Tutorial 2 - Prepare A Source Batch
 
-An asset dataset is not just a folder of images. It should explain what can be generated, what should be avoided, and how a reviewer will check the result.
+Use Dataset ReviewEval logic on a small set of images. For each image, write one line: what it shows, whether it is readable, whether it fits a facade or asset route, and whether it should be kept, fixed, rejected, or revisited.
 
-Minimum review fields:
+### Tutorial 3 - Review A Splat Face Candidate
 
-- source or provenance category;
-- target use in Unity or mobile;
-- framing and readability;
-- duplication or near-duplicate risk;
-- visual noise that could harm generation or baking;
-- decision: keep, fix, reject, or reserve for manual review.
+Review the candidate as a Unity/mobile asset direction. Check framing, silhouette, depth-card usefulness, texture readability, naming, scale assumptions, material expectations, and platform weight. The result should be a decision note, not just an image opinion.
 
-### Tutorial 3 - Evaluate A Splat Face 2.5D Candidate
+### Tutorial 4 - Prepare A Unity Handoff
 
-1. Identify the cleared visual source and intended Unity use.
-2. Check silhouette, depth readability, scale expectation, and texture/material assumptions.
-3. Decide whether the output is a lightweight visual prop, a facade/background element, or a candidate for deeper asset work.
-4. Record what a Unity reviewer should inspect: bounds, orientation, material slots, texture size, and mobile risk.
-5. Keep the result public-safe by publishing criteria and summaries, not private meshes or generated outputs.
+Before handoff, write the candidate name, source note, expected scene role, file format, manifest fields, scale, pivot, orientation, material state, and review status. Then use [QA validation](qa-validation.md) to decide what still needs checking.
 
-### Tutorial 4 - Prepare A CodexUnity Or LocalAssetFactory Handoff
+### Tutorial 5 - Read A Proof Note
 
-Before a Unity handoff, confirm the asset name, manifest, pivot, scale, orientation, bounds, materials, texture expectations, collision needs, and validation status. A useful handoff lets another reviewer reproduce the decision without seeing local endpoints, private paths, or raw logs.
-
-### Tutorial 5 - Read A Quality Proof
-
-A useful proof states the source category, scenario, abstract environment, expected result, observed result, acceptance decision, known constraint, and next action. Raw logs are supporting material; they are not a public proof until summarized and redacted.
+Open [evidence](evidence.md) and [proof pack](proof-pack.md). A proof note should make the claim, source of confidence, current status, and next useful action clear without requiring a live explanation.
 
 ## Francais
 
-### Tutoriel 1 - Lire le pipeline en 20 minutes
+### Tutoriel 1 - Lire Le Pipeline En 20 Minutes
 
-1. Commencer par le [one-pager](one-pager.md) pour la promesse produit.
-2. Utiliser la [carte projet](project-map.md) pour placer Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia/ccomf-unity et LocalAssetFactory.
-3. Ouvrir les [preuves](evidence.md) et [faits sources](source-facts.md) pour voir ce qui est public, prive, verifie ou cadre pour demo.
-4. Finir par la [QA validation](qa-validation.md) pour garder la discussion sur des criteres d'acceptation, pas seulement sur le rendu visuel.
+Ouvrir [overview](overview.md), puis [Splat Face](projects/splat-face.md), puis [project map](project-map.md). L'idee cle est source -> candidat -> revue Unity -> decision ecrite.
 
-### Tutoriel 2 - Preparer un dataset asset
+### Tutoriel 2 - Preparer Un Lot Source
 
-Un dataset asset n'est pas seulement un dossier d'images. Il doit expliquer ce qui peut etre genere, ce qu'il faut eviter et comment le resultat sera verifie.
+Utiliser la logique Dataset ReviewEval sur un petit lot d'images. Pour chaque image, ecrire une ligne: ce qu'elle montre, si elle est lisible, si elle correspond a une route facade ou asset, et s'il faut garder, corriger, refuser ou revoir plus tard.
 
-Champs minimum:
+### Tutoriel 3 - Revoir Un Candidat Splat Face
 
-- source ou categorie de provenance;
-- usage cible dans Unity ou mobile;
-- cadrage et lisibilite;
-- risque de doublon ou quasi-doublon;
-- bruit visuel pouvant nuire a la generation ou au bake;
-- decision: garder, corriger, rejeter ou reserver pour revue manuelle.
+Revoir le candidat comme direction asset Unity/mobile. Controler cadrage, silhouette, utilite depth-card, lisibilite texture, nommage, hypotheses d'echelle, attentes materiaux et poids plateforme. La sortie doit etre une note de decision, pas seulement un avis visuel.
 
-### Tutoriel 3 - Evaluer un candidat Splat Face 2.5D
+### Tutoriel 4 - Preparer Un Handoff Unity
 
-1. Identifier la source visuelle autorisee et l'usage Unity attendu.
-2. Verifier silhouette, profondeur lisible, echelle attendue et hypotheses de textures/materiaux.
-3. Decider si la sortie est un prop visuel leger, un element facade/background ou un candidat a un travail asset plus profond.
-4. Noter ce qu'un reviewer Unity doit inspecter: bounds, orientation, slots materiaux, taille texture et risque mobile.
-5. Garder le resultat public-safe en publiant criteres et resumes, pas les meshes prives ni sorties generees.
+Avant le handoff, ecrire le nom du candidat, la note source, le role scene attendu, le format fichier, les champs manifest, l'echelle, le pivot, l'orientation, l'etat materiau et le statut de revue. Utiliser ensuite [QA validation](qa-validation.md) pour decider ce qui reste a controler.
 
-### Tutoriel 4 - Preparer un handoff CodexUnity ou LocalAssetFactory
+### Tutoriel 5 - Lire Une Note De Preuve
 
-Avant un handoff Unity, confirmer nom d'asset, manifest, pivot, echelle, orientation, bounds, materiaux, textures attendues, collisions si necessaire et statut de validation. Un bon handoff permet a un autre reviewer de comprendre la decision sans voir endpoints locaux, chemins prives ni logs bruts.
-
-### Tutoriel 5 - Lire une preuve qualite
-
-Une preuve utile indique categorie de source, scenario, environnement abstrait, resultat attendu, resultat observe, decision d'acceptation, contrainte connue et prochaine action. Les logs bruts sont du support; ils ne deviennent preuve publique qu'apres synthese et redaction.
+Ouvrir [evidence](evidence.md) et [proof pack](proof-pack.md). Une note de preuve doit rendre clairs le claim, la source de confiance, le statut actuel et l'action utile suivante sans demander une explication en direct.

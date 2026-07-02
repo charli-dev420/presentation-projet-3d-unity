@@ -1,31 +1,39 @@
-# Public Proof Index / Index des preuves publiques
+# Proof Index / Index des preuves
 
 [EN](#english) | [FR](#francais)
 
 ## English
 
-| ID | Source | Public claim | Proof type | Status | Target document |
-| --- | --- | --- | --- | --- | --- |
-| `3D-P01` | Dataset ReviewEval / DatasetViewEval | Local desktop app for Flux/Trellis-style dataset review with usable exports. | Public repository, docs, tests, publication audit. | Publicly checked 2026-06-29. | [Source facts](source-facts.md), [evidence](evidence.md) |
-| `3D-P02` | Splat Face / Splat Facade Baker | 2.5D depth-card route for lightweight Unity/mobile asset candidates. | Public repository, status docs, diagrams, QA framing. | Publicly checked 2026-06-29. | [Source facts](source-facts.md), [proof pack](proof-pack.md) |
-| `3D-P03` | CodexUnity / CodexToUnity | Experimental bridge between Codex-style agent work, ComfyUI-style generation, and Unity import. | Public repository, publication audit, prototype docs. | Publicly checked 2026-06-29. | [Source facts](source-facts.md), [QA validation](qa-validation.md) |
-| `3D-P04` | Mob'ia / ccomf-unity | Private product layer around profiles, jobs, artifacts, review, and Unity/web/mobile clients. | Public-safe product summary without routes or infrastructure. | Product map. | [Evidence](evidence.md), [demo scenarios](demo-scenarios.md) |
-| `3D-P05` | LocalAssetFactory | Local loop for generation, normalization, manifests, preflight, and Unity handoff. | Diagrams, checklist, and scoped demo criteria. | Shareable concept. | [Visual index](visual-index.md), [QA notes](qa-and-blockers.md) |
+### Index
+
+`3D-P01` - Dataset ReviewEval source review: shows how visual sources are selected, rejected, or prepared for later work.
+
+`3D-P02` - Splat Face asset route: shows how a source becomes a facade or 2.5D Unity/mobile candidate.
+
+`3D-P03` - Unity handoff: shows how a candidate should be named, described, checked, and reviewed.
+
+`3D-P04` - Product workflow: shows how Mob'ia / ccomf-unity can carry profile, job, artifact, state, and next action.
+
+`3D-P05` - Local readiness: shows how LocalAssetFactory can connect normalization, manifest, import expectation, and review result.
 
 ### Reading Rule
 
-This index names public and private sources while publishing only safe summaries. Raw workflows, datasets, endpoints, logs, models, meshes, generated assets, and builds stay out of this showcase.
+Each proof entry should help the reader make a decision. If it only sounds impressive but does not clarify source, asset route, Unity check, or next action, it should be rewritten.
 
 ## Francais
 
-| ID | Source | Claim public | Type de preuve | Statut | Document cible |
-| --- | --- | --- | --- | --- | --- |
-| `3D-P01` | Dataset ReviewEval / DatasetViewEval | App desktop locale pour revue dataset Flux/Trellis avec exports exploitables. | Repo public, docs, tests, audit publication. | Verifie public 2026-06-29. | [Source facts](source-facts.md), [evidence](evidence.md) |
-| `3D-P02` | Splat Face / Splat Facade Baker | Route 2.5D depth-card pour candidats assets legers Unity/mobile. | Repo public, docs statut, diagrammes, cadrage QA. | Verifie public 2026-06-29. | [Source facts](source-facts.md), [proof pack](proof-pack.md) |
-| `3D-P03` | CodexUnity / CodexToUnity | Pont experimental entre travail agent type Codex, generation type ComfyUI et import Unity. | Repo public, audit publication, docs prototype. | Verifie public 2026-06-29. | [Source facts](source-facts.md), [QA validation](qa-validation.md) |
-| `3D-P04` | Mob'ia / ccomf-unity | Couche produit privee autour de profils, jobs, artefacts, revue et clients Unity/web/mobile. | Resume produit public-safe sans routes ni infrastructure. | Carte produit. | [Evidence](evidence.md), [demo scenarios](demo-scenarios.md) |
-| `3D-P05` | LocalAssetFactory | Boucle locale pour generation, normalisation, manifests, preflight et handoff Unity. | Diagrammes, checklist et criteres demo ciblee. | Concept partageable. | [Visual index](visual-index.md), [QA notes](qa-and-blockers.md) |
+### Index
 
-### Regle de lecture
+`3D-P01` - Revue source Dataset ReviewEval: montre comment les sources visuelles sont selectionnees, refusees ou preparees pour la suite.
 
-Cet index nomme sources publiques et privees tout en publiant seulement des resumes surs. Workflows bruts, datasets, endpoints, logs, modeles, meshes, assets generes et builds restent hors de cette vitrine.
+`3D-P02` - Route asset Splat Face: montre comment une source devient un candidat facade ou 2.5D Unity/mobile.
+
+`3D-P03` - Handoff Unity: montre comment un candidat doit etre nomme, decrit, controle et revu.
+
+`3D-P04` - Workflow produit: montre comment Mob'ia / ccomf-unity peut porter profil, job, artefact, etat et prochaine action.
+
+`3D-P05` - Readiness locale: montre comment LocalAssetFactory peut relier normalisation, manifest, attente import et resultat de revue.
+
+### Regle De Lecture
+
+Chaque entree de preuve doit aider le lecteur a prendre une decision. Si elle impressionne sans clarifier source, route asset, controle Unity ou prochaine action, elle doit etre reecrite.

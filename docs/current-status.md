@@ -2,32 +2,40 @@
 
 [EN](#english) | [FR](#francais)
 
-![3D proof dashboard](../assets/proof-dashboard.svg)
+![Repository status matrix](../assets/diagrams/repo-status-matrix.svg)
 
 ## English
 
-| Surface | Public status | Usable proof | Careful reading |
-| --- | --- | --- | --- |
-| Dataset ReviewEval / Flux3D Desktop | Public, publication-ready local app direction. | Publication audit, unit tests, `compileall`, backend API tests, secret scan. | Strong local desktop signal, not positioned as a public web app. |
-| Splat Face / Splat Facade Baker | Public repository and pre-MVP pipeline direction. | Scaffolds, first executable paths, schemas, diagrams, product notes. | Strong architecture story; Unity/Blender/ComfyUI live proof should be scoped with cleared assets. |
-| CodexUnity / CodexToUnity | Experimental public prototype. | Publication audit, experimental installer direction, dry-run/smoke paths. | Useful bridge surface; not positioned as a release candidate. |
-| Mob'ia / ccomf-unity | Private product layer. | Public map of profiles, jobs, artifacts, Unity/web/mobile clients. | Product story is shareable; routes, storage, tokens, configs, and infra stay private. |
-| LocalAssetFactory | Local/private validation concept. | Generation, normalization, manifest, preflight, and Unity handoff described. | Best reviewed through a controlled demo with public or cleared assets. |
+### Status Reading
 
-### Public Position
+Splat Face / Splat Facade Baker is the main project direction for this showcase. The strongest current value is the combination of public project structure, source-review discipline, 2.5D/mobile asset criteria, and Unity-facing QA language.
 
-The strongest current signal is the combination of documentation, publication hygiene, source review discipline, product mapping, and surface-by-surface QA evidence. The next step is not to publish private internals; it is to close one controlled validation proof at a time.
+Dataset ReviewEval is the most concrete source-review surface. It gives the pipeline a way to explain image selection before asset work begins.
+
+CodexUnity / CodexToUnity is the bridge surface for manifests and Unity handoff. It is useful for integration review and controlled workflow checks.
+
+Mob'ia / ccomf-unity is the product layer around jobs and artifacts. It helps frame how a user or collaborator follows a generation or asset-preparation workflow.
+
+LocalAssetFactory is the local validation loop. It keeps candidate files tied to normalization, manifest, import expectations, and written decisions.
+
+### Positive Next Proof
+
+The strongest next proof is a small reviewed source set, one Splat Face candidate route, one Unity import check, and one written accept/revise/reject decision.
 
 ## Francais
 
-| Surface | Statut public | Preuve exploitable | Lecture prudente |
-| --- | --- | --- | --- |
-| Dataset ReviewEval / Flux3D Desktop | App locale publique, direction publication-ready. | Audit publication, tests unitaires, `compileall`, tests API backend, scan secret. | Signal fort pour desktop local, pas positionne comme web app publique. |
-| Splat Face / Splat Facade Baker | Repo public et direction pipeline pre-MVP. | Scaffolds, premiers chemins executables, schemas, diagrammes, notes produit. | Recit architecture fort; preuve live Unity/Blender/ComfyUI a cadrer avec assets autorises. |
-| CodexUnity / CodexToUnity | Prototype public experimental. | Audit publication, direction installer experimental, chemins dry-run/smoke. | Surface pont utile; pas positionnee comme release candidate. |
-| Mob'ia / ccomf-unity | Couche produit privee. | Carte publique des profils, jobs, artefacts, clients Unity/web/mobile. | Le recit produit est partageable; routes, stockage, tokens, configs et infra restent prives. |
-| LocalAssetFactory | Concept de validation local/prive. | Generation, normalisation, manifest, preflight et handoff Unity decrits. | A revoir idealement via demo controlee avec assets publics ou autorises. |
+### Lecture Du Statut
 
-### Positionnement public
+Splat Face / Splat Facade Baker est la direction projet principale de cette vitrine. La valeur actuelle la plus forte vient de la combinaison structure projet publique, discipline de revue source, criteres asset 2.5D/mobile et langage QA oriente Unity.
 
-Le signal actuel le plus fort combine documentation, hygiene de publication, discipline revue source, carte produit et preuves QA par surface. La prochaine etape n'est pas de publier les internes prives; c'est de fermer une preuve de validation controlee a la fois.
+Dataset ReviewEval est la surface de revue source la plus concrete. Elle donne au pipeline une maniere d'expliquer la selection image avant le travail asset.
+
+CodexUnity / CodexToUnity est la surface de pont pour manifests et handoff Unity. Elle est utile pour revue integration et controles workflow cadres.
+
+Mob'ia / ccomf-unity est la couche produit autour des jobs et artefacts. Elle aide a cadrer comment un utilisateur ou collaborateur suit un workflow de generation ou preparation asset.
+
+LocalAssetFactory est la boucle de validation locale. Elle relie les fichiers candidats a normalisation, manifest, attentes import et decisions ecrites.
+
+### Prochaine Preuve Positive
+
+La prochaine preuve la plus forte est un petit lot source revu, une route candidat Splat Face, un controle import Unity et une decision ecrite accepter/reviser/refuser.

@@ -4,28 +4,42 @@
 
 ## English
 
-| File | Use | Best reader |
-| --- | --- | --- |
-| [`assets/one-pager.svg`](../assets/one-pager.svg) | Fast visual overview of the dataset-to-Unity chain. | Buyer, partner, recruiter. |
-| [`assets/proof-dashboard.svg`](../assets/proof-dashboard.svg) | Maturity snapshot by public surface. | Buyer, technical reviewer. |
-| [`assets/qa-matrix.svg`](../assets/qa-matrix.svg) | Public-safe QA matrix for demo planning. | Unity reviewer, partner. |
-| [`assets/diagrams/pipeline-map.svg`](../assets/diagrams/pipeline-map.svg) | Pipeline map from source material to Unity handoff. | Technical collaborator. |
-| [`assets/diagrams/proof-ladder.svg`](../assets/diagrams/proof-ladder.svg) | Proof levels used to qualify public claims. | Buyer, auditor, mission lead. |
-| [`assets/diagrams/repo-status-matrix.svg`](../assets/diagrams/repo-status-matrix.svg) | Multi-repository status and sharing mode. | Partner, recruiter. |
-| [`assets/diagrams/unity-qa-checklist.svg`](../assets/diagrams/unity-qa-checklist.svg) | Unity import and asset-quality checklist. | Technical artist, Unity integrator. |
+### Banners
 
-These visuals are meant to anchor a conversation quickly. They are not decorative assets; each one supports a decision about scope, proof, QA, or partnership.
+- [`assets/project-banners/mobia-for-unity.jpg`](../assets/project-banners/mobia-for-unity.jpg) - 3D Unity pipeline banner.
+- [`assets/project-banners/save-my-lord.jpg`](../assets/project-banners/save-my-lord.jpg) - Splat Face visual banner.
+- [`assets/project-banners/mobia.jpg`](../assets/project-banners/mobia.jpg) - Mob'ia product banner.
+
+### Diagrams
+
+- [`assets/diagrams/pipeline-map.svg`](../assets/diagrams/pipeline-map.svg) - source to Unity asset pipeline.
+- [`assets/diagrams/unity-qa-checklist.svg`](../assets/diagrams/unity-qa-checklist.svg) - Unity-facing QA checklist.
+- [`assets/diagrams/proof-ladder.svg`](../assets/diagrams/proof-ladder.svg) - evidence levels.
+- [`assets/diagrams/repo-status-matrix.svg`](../assets/diagrams/repo-status-matrix.svg) - project surface status.
+
+### Presentation Assets
+
+- [`assets/one-pager.svg`](../assets/one-pager.svg)
+- [`assets/proof-dashboard.svg`](../assets/proof-dashboard.svg)
+- [`assets/qa-matrix.svg`](../assets/qa-matrix.svg)
 
 ## Francais
 
-| Fichier | Usage | Lecteur cible |
-| --- | --- | --- |
-| [`assets/one-pager.svg`](../assets/one-pager.svg) | Vue rapide de la chaine dataset -> Unity. | Acheteur, partenaire, recruteur. |
-| [`assets/proof-dashboard.svg`](../assets/proof-dashboard.svg) | Apercu maturite par surface publique. | Acheteur, reviewer technique. |
-| [`assets/qa-matrix.svg`](../assets/qa-matrix.svg) | Matrice QA public-safe pour cadrer une demo. | Reviewer Unity, partenaire. |
-| [`assets/diagrams/pipeline-map.svg`](../assets/diagrams/pipeline-map.svg) | Carte du pipeline source -> handoff Unity. | Collaborateur technique. |
-| [`assets/diagrams/proof-ladder.svg`](../assets/diagrams/proof-ladder.svg) | Niveaux de preuve utilises pour qualifier les claims publics. | Acheteur, auditeur, responsable mission. |
-| [`assets/diagrams/repo-status-matrix.svg`](../assets/diagrams/repo-status-matrix.svg) | Statut multi-repos et mode de partage. | Partenaire, recruteur. |
-| [`assets/diagrams/unity-qa-checklist.svg`](../assets/diagrams/unity-qa-checklist.svg) | Checklist import Unity et qualite asset. | Artiste technique, integrateur Unity. |
+### Bannieres
 
-Ces visuels servent a cadrer rapidement une discussion. Ce ne sont pas des decorations; chacun soutient une decision de scope, preuve, QA ou partenariat.
+- [`assets/project-banners/mobia-for-unity.jpg`](../assets/project-banners/mobia-for-unity.jpg) - banniere pipeline 3D Unity.
+- [`assets/project-banners/save-my-lord.jpg`](../assets/project-banners/save-my-lord.jpg) - banniere visuelle Splat Face.
+- [`assets/project-banners/mobia.jpg`](../assets/project-banners/mobia.jpg) - banniere produit Mob'ia.
+
+### Diagrammes
+
+- [`assets/diagrams/pipeline-map.svg`](../assets/diagrams/pipeline-map.svg) - pipeline source vers asset Unity.
+- [`assets/diagrams/unity-qa-checklist.svg`](../assets/diagrams/unity-qa-checklist.svg) - checklist QA orientee Unity.
+- [`assets/diagrams/proof-ladder.svg`](../assets/diagrams/proof-ladder.svg) - niveaux de preuve.
+- [`assets/diagrams/repo-status-matrix.svg`](../assets/diagrams/repo-status-matrix.svg) - statut des surfaces projet.
+
+### Assets De Presentation
+
+- [`assets/one-pager.svg`](../assets/one-pager.svg)
+- [`assets/proof-dashboard.svg`](../assets/proof-dashboard.svg)
+- [`assets/qa-matrix.svg`](../assets/qa-matrix.svg)

@@ -1,51 +1,41 @@
-# Public Scope / Perimetre public
+# Publishable Scope / Perimetre publiable
 
 [EN](#english) | [FR](#francais)
 
 ## English
 
-This repository is a public-safe presentation surface for Mob'ia, ccomf-unity, Dataset ReviewEval, Splat Face, CodexUnity, and the LocalAssetFactory validation loop.
+This repository is a publishable presentation surface for Splat Face / Splat Facade Baker and the connected 3D/Unity workflow tools.
 
 ### Included
 
-- High-level product and workflow presentation.
-- Non-sensitive diagrams and public-safe visual indexes.
-- Redacted QA summaries, synthetic screenshots, public repository metadata, and rewritten proof cards.
-- Public positioning for Unity, 3D, dataset review, ComfyUI-facing product flows, and local AI asset pipelines.
-- Partnership, buyer, recruiter, mission, and funding material.
+- Product framing, diagrams, user flows, validation criteria, proof notes, and reading paths.
+- Links to public repositories where available.
+- Brand assets, banners, watermark, iconography, and rewritten summaries.
+- Collaboration, funding, mission, role, and technical review material.
 
-### Excluded
+### Not Included
 
-- Critical source code and private Unity projects.
-- Model weights, datasets, generated meshes, generated images, private textures, or ComfyUI workflow files.
-- Local service endpoints, hardware profiles, private paths, raw logs, raw QA evidence, unredacted screenshots, or build outputs.
-- Any content from Unity `Library`, `Temp`, generated caches, or production asset folders.
-- GLB/FBX/OBJ assets, backend routes, Docker/run configs, storage details, tokens, model settings, or source material not cleared or rewritten as a public-safe summary.
+The repo does not include secrets, tokens, raw logs, local paths, unreleased builds, model files, rights-sensitive source material, unpublished datasets, generated meshes, or production infrastructure details.
 
 ### Review Rule
 
-Only add material that can be shared publicly without exposing implementation details, private assets, licensing-sensitive models, or production data. Images must be diagrams, fully redacted captures, or synthetic examples that reveal no endpoint, path, run id, user name, model config, workflow, generated private asset, or log.
+Add only material that helps a reader understand the project without exposing operational details or rights-sensitive assets.
 
 ## Francais
 
-Ce depot est une surface de presentation public-safe pour Mob'ia, ccomf-unity, Dataset ReviewEval, Splat Face, CodexUnity et la boucle de validation LocalAssetFactory.
+Ce repo est une surface de presentation publiable pour Splat Face / Splat Facade Baker et les outils relies au workflow 3D/Unity.
 
 ### Inclus
 
-- Presentation produit et workflow haut niveau.
-- Diagrammes non sensibles et index visuels public-safe.
-- Resumes QA rediges, captures synthetiques, metadata de repos publics et cartes de preuve reecrites.
-- Positionnement public pour Unity, 3D, revue dataset, flows produit lies a ComfyUI et pipelines assets IA locaux.
-- Materiel partenariat, acheteur, recruteur, mission et financement.
+- Cadrage produit, diagrammes, flux utilisateur, criteres de validation, notes de preuve et chemins de lecture.
+- Liens vers les repos publics disponibles.
+- Assets de marque, bannieres, watermark, iconographie et syntheses reecrites.
+- Materiel collaboration, financement, mission, poste et revue technique.
 
-### Exclus
+### Non Inclus
 
-- Code critique et projets Unity prives.
-- Poids de modeles, datasets, meshes generes, images generees, textures privees ou workflows ComfyUI.
-- Endpoints locaux, profils hardware, chemins prives, logs bruts, preuves QA brutes, captures non redigees ou builds.
-- Tout contenu Unity `Library`, `Temp`, caches generes ou dossiers assets production.
-- Assets GLB/FBX/OBJ, routes backend, configs Docker/run, details stockage, tokens, reglages modeles ou materiel source non autorise ou non reecrit en resume public-safe.
+Le repo n'inclut pas secrets, tokens, logs bruts, chemins locaux, builds non publies, fichiers modeles, materiel source sensible aux droits, datasets non publies, meshes generes ou details infrastructure production.
 
-### Regle de revue
+### Regle De Revue
 
-Ajouter seulement du materiel partageable publiquement sans exposer details d'implementation, assets prives, modeles sensibles aux licences ou donnees production. Les images doivent etre des diagrammes, captures totalement redigees ou exemples synthetiques qui ne revelent aucun endpoint, chemin, run id, nom utilisateur, config modele, workflow, asset prive genere ou log.
+Ajouter seulement du materiel qui aide un lecteur a comprendre le projet sans exposer details operationnels ou assets sensibles aux droits.

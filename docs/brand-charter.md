@@ -1,4 +1,4 @@
-# DAWWW Core Brand Charter / Charte DAWWW Core
+# Brand Charter / Charte de marque
 
 [EN](#english) | [FR](#francais)
 
@@ -6,34 +6,28 @@
 
 ### Available Assets
 
-| Asset | Use |
-| --- | --- |
-| `assets/brand/daw-core-logo-main.png` | Main logo. |
-| `assets/brand/daw-core-icon-512.png` | Compact icon. |
-| `assets/brand/daw-core-banner.png` | Wide cover image. |
-| `assets/brand/daw-core-watermark-opacity20.png` | Discreet watermark. |
+The showcase uses the Unicorn Who Dev identity and DAW Core visual assets as shared presentation marks:
+
+- `assets/brand/daw-core-logo-main.png`
+- `assets/brand/daw-core-icon-512.png`
+- `assets/brand/daw-core-banner.png`
+- `assets/brand/daw-core-watermark-opacity20.png`
 
 ### 3D / Unity Application
 
-- Use the brand as a hub marker for the product family, not as technical proof.
-- Associate DAWWW Core identity with pipeline, validation, and decision documents.
-- Keep visuals simple, legible, and safe for public review.
-- Do not use private generated assets, datasets, or Unity screenshots as decoration unless they are explicitly cleared.
+Use the logo and watermark as quiet identity marks. The project visuals should remain focused on Splat Face, source review, Unity/mobile asset preparation, and validation criteria.
 
 ## Francais
 
-### Assets disponibles
+### Assets Disponibles
 
-| Asset | Usage |
-| --- | --- |
-| `assets/brand/daw-core-logo-main.png` | Logo principal. |
-| `assets/brand/daw-core-icon-512.png` | Icone compacte. |
-| `assets/brand/daw-core-banner.png` | Couverture large. |
-| `assets/brand/daw-core-watermark-opacity20.png` | Watermark discret. |
+La vitrine utilise l'identite Unicorn Who Dev et les assets visuels DAW Core comme marques de presentation partagees:
+
+- `assets/brand/daw-core-logo-main.png`
+- `assets/brand/daw-core-icon-512.png`
+- `assets/brand/daw-core-banner.png`
+- `assets/brand/daw-core-watermark-opacity20.png`
 
 ### Application 3D / Unity
 
-- Utiliser la marque comme signal de hub pour la famille produit, pas comme preuve technique.
-- Associer l'identite DAWWW Core aux documents de pipeline, validation et decision.
-- Garder les visuels simples, lisibles et publics.
-- Ne pas utiliser d'assets generes prives, datasets ou captures Unity comme decoration sans autorisation explicite.
+Utiliser le logo et le watermark comme marques discretes. Les visuels projet doivent rester centres sur Splat Face, revue source, preparation asset Unity/mobile et criteres de validation.

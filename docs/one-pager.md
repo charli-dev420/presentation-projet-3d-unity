@@ -1,4 +1,4 @@
-# Mob'ia / ccomf-unity One-Pager
+# Splat Face One-Pager / One-pager Splat Face
 
 [EN](#english) | [FR](#francais)
 
@@ -8,54 +8,34 @@
 
 ### Product In One Sentence
 
-**Mob'ia / ccomf-unity** is my product direction for turning AI visual material into reviewed, testable Unity/mobile asset candidates through source selection, preparation, handoff, and acceptance criteria.
+**Splat Face / Splat Facade Baker** turns reviewed visual sources into lightweight Unity/mobile asset candidates, with clear rules for source quality, 2.5D preparation, import behavior, and human review.
 
 ### Why It Matters
 
-AI output becomes useful only when the team can explain why a source image was chosen, what asset route was attempted, what Unity import check was run, and what should happen next. This project focuses on that control layer.
+AI visual output is easy to produce and hard to trust. The useful question is not whether an image looks impressive; it is whether the source, asset route, Unity constraints, and review criteria are clear enough for another person to continue the work.
 
-The public showcase connects the pieces I use to make that decision visible:
-
-- **Dataset ReviewEval** helps score source images before they waste generation or bake time.
-- **Splat Face / Splat Facade Baker** explores lightweight 2.5D and facade-oriented preparation for Unity/mobile scenes.
-- **CodexUnity / CodexToUnity** frames the agent-to-Unity handoff: job shape, manifest, dry-run, sockets/import checks, and review trace.
-- **LocalAssetFactory** describes the local preflight and normalization loop before an asset is handed to Unity.
-- **Mob'ia / ccomf-unity** gives those pieces a product surface: profiles, jobs, artifacts, review states, and clients.
+This repository presents that path through five connected surfaces. Dataset ReviewEval handles source decisions. Splat Face prepares facade and 2.5D candidates. CodexUnity / CodexToUnity describes the AI-to-Unity handoff. Mob'ia / ccomf-unity frames jobs and artifacts as a product workflow. LocalAssetFactory describes local normalization, manifest, import, and review.
 
 ### What To Evaluate
 
-A useful read should answer five concrete questions. Which source images would I keep or reject? What asset candidate would I prepare first? What Unity import criteria matter for scale, materials, naming, orientation, and mobile weight? What batch could be tested without opening the whole system? What short demo would produce a written accept/fix/reject decision?
+A strong read should answer these questions: which visual sources are worth using, what asset candidate should be prepared first, what Unity/mobile constraints matter, what proof exists today, and what support would move the project forward.
 
-The best reading path is [project map](project-map.md), [user flows](user-flows.md), [demo scenarios](demo-scenarios.md), [source facts](source-facts.md), [proof pack](proof-pack.md), and [buyer brief](buyer-brief.md).
-
-### Good Next Conversations
-
-Useful conversations include a cleared image batch, a mobile asset preparation pass, a Splat Face demo, a CodexUnity handoff review, a LocalAssetFactory preflight, an editor validation checklist, funding for a controlled proof, or a mission around creative tooling and real-time production.
+Useful conversations include source review, facade or 2.5D asset criteria, Unity import checks, mobile weight, mesh/material review, ComfyUI handoff, product job states, funding, missions, and roles around creative pipelines.
 
 ## Francais
 
 ### Produit En Une Phrase
 
-**Mob'ia / ccomf-unity** est ma direction produit pour transformer du materiel visuel IA en candidats assets Unity/mobile revus et testables, avec selection source, preparation, handoff et criteres d'acceptation.
+**Splat Face / Splat Facade Baker** transforme des sources visuelles revues en candidats assets Unity/mobile legers, avec des regles claires pour qualite source, preparation 2.5D, comportement d'import et revue humaine.
 
 ### Pourquoi C'Est Important
 
-Une sortie IA devient utile seulement si l'equipe peut expliquer pourquoi une image source a ete choisie, quelle route asset a ete tentee, quel controle d'import Unity a ete fait et quelle decision vient ensuite. Ce projet travaille cette couche de controle.
+Une sortie visuelle IA est facile a produire et difficile a faire confiance. La question utile n'est pas de savoir si une image impressionne; c'est de savoir si la source, la route asset, les contraintes Unity et les criteres de revue sont assez clairs pour qu'une autre personne continue le travail.
 
-La vitrine publique relie les pieces que j'utilise pour rendre cette decision visible:
-
-- **Dataset ReviewEval** aide a scorer les images sources avant de gaspiller du temps de generation ou de bake.
-- **Splat Face / Splat Facade Baker** explore la preparation 2.5D legere et facade pour scenes Unity/mobile.
-- **CodexUnity / CodexToUnity** cadre le handoff agent vers Unity: forme de job, manifest, dry-run, sockets/controles import et trace de revue.
-- **LocalAssetFactory** decrit la boucle locale de preflight et normalisation avant transmission a Unity.
-- **Mob'ia / ccomf-unity** donne a ces pieces une surface produit: profils, jobs, artefacts, etats de revue et clients.
+Ce repo presente ce chemin avec cinq surfaces reliees. Dataset ReviewEval gere les decisions source. Splat Face prepare les candidats facade et 2.5D. CodexUnity / CodexToUnity decrit le handoff IA vers Unity. Mob'ia / ccomf-unity cadre les jobs et artefacts comme workflow produit. LocalAssetFactory decrit normalisation locale, manifest, import et revue.
 
 ### Ce Qu'Il Faut Evaluer
 
-Une lecture utile doit repondre a cinq questions concretes. Quelles images sources garder ou rejeter ? Quel candidat asset preparer en premier ? Quels criteres d'import Unity comptent pour l'echelle, les materiaux, le nommage, l'orientation et le poids mobile ? Quel lot peut etre teste sans ouvrir tout le systeme ? Quelle demo courte produit une decision ecrite accepter/corriger/rejeter ?
+Une lecture solide doit repondre a ces questions: quelles sources visuelles valent la peine, quel candidat asset preparer en premier, quelles contraintes Unity/mobile comptent, quelles preuves existent aujourd'hui et quel support ferait avancer le projet.
 
-Le meilleur chemin de lecture est [project map](project-map.md), [user flows](user-flows.md), [demo scenarios](demo-scenarios.md), [source facts](source-facts.md), [proof pack](proof-pack.md) et [buyer brief](buyer-brief.md).
-
-### Bons Sujets De Discussion
-
-Les discussions utiles portent sur un lot d'images autorisees, une passe de preparation asset mobile, une demo Splat Face, une revue de handoff CodexUnity, un preflight LocalAssetFactory, une checklist de validation editor, le financement d'une preuve controlee ou une mission autour du creative tooling et de la production temps reel.
+Les conversations utiles portent sur revue source, criteres asset facade ou 2.5D, controles import Unity, poids mobile, revue mesh/materiaux, handoff ComfyUI, etats job produit, financement, missions et postes autour des pipelines creatifs.

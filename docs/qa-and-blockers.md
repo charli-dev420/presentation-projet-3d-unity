@@ -1,31 +1,35 @@
-# QA And Readiness Notes / QA et diligence
+# QA And Readiness Notes / QA et readiness
 
 [EN](#english) | [FR](#francais)
 
 ## English
 
-| Surface | Publicly validated | Demo framing | Excluded artifacts |
-| --- | --- | --- | --- |
-| Dataset ReviewEval | Documented tests, export formats, local desktop workflow. | Final packaging and full operator path with cleared samples. | Private datasets, internal exports, raw logs. |
-| Splat Face / Splat Facade Baker | Public architecture, schemas, and 2.5D asset criteria. | Unity/Blender/ComfyUI validation with public or NDA-cleared assets. | Workflows, private meshes, textures, raw runs. |
-| CodexUnity / CodexToUnity | Prototype docs, dry-run paths, smoke story. | Short controlled run and summarized Unity import/handoff. | Endpoints, configs, workflows, private GLB files. |
-| Mob'ia / ccomf-unity | Product map and multi-client role. | Product walkthrough with one profile, one job, one artifact, and one review decision. | Routes, tokens, storage, infrastructure, private generated images. |
-| LocalAssetFactory | Conceptual loop and QA checklist. | Unity handoff with a public asset or NDA-cleared asset. | Services, logs, models, internal screenshots. |
+### Readiness Notes
 
-### Practical Reading
+Splat Face is strongest when the review target is small: a few sources, one candidate route, one Unity-facing checklist, and one written decision. The project does not need a broad tour to be useful; it needs repeatable acceptance criteria.
 
-The QA material is there to make demos smaller and more credible. Each scenario should end with a decision: accepted, accepted with notes, or needs another pass.
+Dataset ReviewEval is ready to support source selection conversations. The next useful improvement is to attach more clear source examples to asset routes.
+
+Splat Face needs visible candidate reviews that connect source, 2.5D preparation, Unity constraints, and final decision.
+
+CodexUnity / CodexToUnity needs handoff notes that make manifests and import expectations easy to review.
+
+Mob'ia / ccomf-unity needs product-readable job and artifact states that fit the same review language.
+
+LocalAssetFactory needs local readiness notes that connect normalization, import expectations, and scene usefulness.
 
 ## Francais
 
-| Surface | Valide publiquement | Cadrage demo | Artefacts exclus |
-| --- | --- | --- | --- |
-| Dataset ReviewEval | Tests documentes, formats export, workflow desktop local. | Packaging final et parcours operateur complet avec exemples autorises. | Datasets prives, exports internes, logs bruts. |
-| Splat Face / Splat Facade Baker | Architecture publique, schemas et criteres asset 2.5D. | Validation Unity/Blender/ComfyUI avec assets publics ou sous NDA. | Workflows, meshes prives, textures, runs bruts. |
-| CodexUnity / CodexToUnity | Docs prototype, chemins dry-run, recit smoke. | Run court controle et import/handoff Unity synthetise. | Endpoints, configs, workflows, GLB prives. |
-| Mob'ia / ccomf-unity | Carte produit et role multi-clients. | Walkthrough produit avec un profil, un job, un artefact et une decision revue. | Routes, tokens, stockage, infrastructure, images generees privees. |
-| LocalAssetFactory | Boucle conceptuelle et checklist QA. | Handoff Unity avec asset public ou asset autorise sous NDA. | Services, logs, modeles, captures internes. |
+### Notes De Readiness
 
-### Lecture pratique
+Splat Face est plus fort quand la cible de revue reste petite: quelques sources, une route candidat, une checklist orientee Unity et une decision ecrite. Le projet n'a pas besoin d'un grand tour pour etre utile; il a besoin de criteres d'acceptation repetables.
 
-La QA sert a rendre les demos plus petites et plus credibles. Chaque scenario doit finir par une decision: accepte, accepte avec notes ou necessite une nouvelle passe.
+Dataset ReviewEval est pret a soutenir les conversations de selection source. L'amelioration utile suivante est de relier plus d'exemples source clairs aux routes asset.
+
+Splat Face a besoin de revues candidats visibles qui relient source, preparation 2.5D, contraintes Unity et decision finale.
+
+CodexUnity / CodexToUnity a besoin de notes de handoff qui rendent manifests et attentes import faciles a revoir.
+
+Mob'ia / ccomf-unity a besoin d'etats job et artefact lisibles cote produit, compatibles avec le meme langage de revue.
+
+LocalAssetFactory a besoin de notes de readiness locale qui relient normalisation, attentes import et utilite scene.

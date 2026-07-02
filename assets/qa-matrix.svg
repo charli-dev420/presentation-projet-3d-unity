@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">3D Unity QA matrix</title>
-  <desc id="desc">Public-safe QA matrix for the 3D Unity showcase.</desc>
+  <desc id="desc">QA matrix for the 3D Unity showcase.</desc>
   <rect width="1200" height="675" fill="#111827"/>
   <text x="72" y="86" fill="#f9fafb" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">QA Matrix · 3D / Unity</text>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="20">
@@ -16,9 +16,9 @@
       <rect x="72" y="518" width="1056" height="58" rx="8"/>
     </g>
     <text x="100" y="267" fill="#f9fafb">DatasetViewEval</text><text x="405" y="267" fill="#6ee7b7">tested</text><text x="720" y="267" fill="#d1d5db">release automation</text>
-    <text x="100" y="339" fill="#f9fafb">SFB core</text><text x="405" y="339" fill="#93c5fd">scaffolded</text><text x="720" y="339" fill="#d1d5db">real GLB + maps proof</text>
+    <text x="100" y="339" fill="#f9fafb">Splat Face route</text><text x="405" y="339" fill="#93c5fd">main focus</text><text x="720" y="339" fill="#d1d5db">2.5D + facade criteria</text>
     <text x="100" y="411" fill="#f9fafb">Unity importer</text><text x="405" y="411" fill="#facc15">pending</text><text x="720" y="411" fill="#d1d5db">compile/import test</text>
-    <text x="100" y="483" fill="#f9fafb">ComfyUI live</text><text x="405" y="483" fill="#f87171">unproven</text><text x="720" y="483" fill="#d1d5db">short live run</text>
+    <text x="100" y="483" fill="#f9fafb">Product workflow</text><text x="405" y="483" fill="#facc15">mapped</text><text x="720" y="483" fill="#d1d5db">job + artifact states</text>
     <text x="100" y="555" fill="#f9fafb">Mesh QA</text><text x="405" y="555" fill="#facc15">shallow</text><text x="720" y="555" fill="#d1d5db">bounds/material checks</text>
   </g>
 </svg>

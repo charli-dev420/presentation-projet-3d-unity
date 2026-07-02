@@ -2,52 +2,44 @@
 
 [EN](#english) | [FR](#francais)
 
+![Pipeline map](../assets/diagrams/pipeline-map.svg)
+
 ## English
 
-| Layer | Surface | Role | Published here | Good review question |
-| --- | --- | --- | --- | --- |
-| Dataset evaluation | Dataset ReviewEval / `datasetvieweval` | Review, score, and prepare visual datasets for Flux/Trellis-style work. | Operator path, quality criteria, export formats, public facts. | Can a reviewer explain why an image should be kept, fixed, or rejected? |
-| 2.5D asset preparation | Splat Face / `splat-facade-baker` | Shape visual sources, maps, and depth-card ideas into lightweight Unity/mobile asset candidates. | Product status, expected outputs, asset criteria, demo framing. | What must be true before a 2.5D result is useful in Unity? |
-| Agent bridge | CodexUnity / `codextounity` | Prototype bridge between agent-driven work, ComfyUI-style generation, asset manifests, and Unity import. | Architecture role, dry-run story, prototype boundaries. | Which part of the bridge should be validated in a controlled demo? |
-| Product orchestration | Mob'ia / ccomf-unity | Product layer for profiles, async jobs, artifacts, and Unity/web/mobile clients around ComfyUI workflows. | Public product map, user journeys, partner needs. | Which client, workflow, or artifact review matters most for the buyer? |
-| Local asset loop | LocalAssetFactory | Local service concept for preflight, normalization, manifest creation, and Unity handoff. | Validation concepts, QA checklist, handoff criteria. | Can an asset be accepted or rejected with clear, repeatable criteria? |
+### Main Line
 
-```mermaid
-flowchart LR
-    A[Cleared images and references] --> B[Dataset ReviewEval]
-    B --> C[Splat Face]
-    B --> D[Mob'ia / ccomf-unity]
-    G[CodexUnity] --> D
-    D --> E[LocalAssetFactory]
-    C --> F[Unity / mobile review]
-    E --> F
-```
+The project map follows one practical line: **review the source, prepare a lightweight candidate, hand it to Unity, and write the review decision**.
+
+**Splat Face / Splat Facade Baker** is the center of that line. It handles the 2.5D and facade-oriented asset route: visual framing, depth-card thinking, texture readability, expected scene role, and mobile constraints.
+
+**Dataset ReviewEval** sits before it. It keeps the pipeline honest by forcing a decision on the source material: keep, fix, reject, export, or revisit.
+
+**CodexUnity / CodexToUnity** sits at the handoff point. It makes request framing, manifests, generated candidates, import checks, and review notes understandable.
+
+**Mob'ia / ccomf-unity** sits around the workflow as a product layer: profiles, jobs, artifacts, clients, and review states.
+
+**LocalAssetFactory** sits close to the machine: local files, normalization, manifests, Unity import expectations, and final review notes.
 
 ### Product Reading
 
-The chain starts with source quality, not generation. It then moves through asset shaping, product orchestration, normalization, and Unity review. The final claim is not "the image looks good"; the final claim is "the asset has a known source, expected use, validation status, and Unity-facing acceptance criteria."
+The chain should not end with "asset created". It should end with a decision that another person can read: accepted, revise, reject, archive, or keep for later review.
 
 ## Francais
 
-| Couche | Surface | Role | Publie ici | Bonne question de revue |
-| --- | --- | --- | --- | --- |
-| Evaluation dataset | Dataset ReviewEval / `datasetvieweval` | Revoir, scorer et preparer des datasets visuels pour des travaux Flux/Trellis. | Parcours operateur, criteres qualite, formats d'export, faits publics. | Un reviewer peut-il expliquer pourquoi garder, corriger ou rejeter une image? |
-| Preparation asset 2.5D | Splat Face / `splat-facade-baker` | Transformer sources visuelles, maps et logique depth-card en candidats legers Unity/mobile. | Statut produit, sorties attendues, criteres asset, cadrage demo. | Qu'est-ce qui doit etre vrai avant qu'un resultat 2.5D soit utile dans Unity? |
-| Pont agent | CodexUnity / `codextounity` | Prototype entre travail pilote par agent, generation type ComfyUI, manifests asset et import Unity. | Role architecture, histoire dry-run, perimetre prototype. | Quelle partie du pont doit etre validee dans une demo controlee? |
-| Orchestration produit | Mob'ia / ccomf-unity | Couche produit pour profils, jobs async, artefacts et clients Unity/web/mobile autour de ComfyUI. | Carte produit publique, parcours, besoins partenaire. | Quel client, workflow ou artefact compte le plus pour l'acheteur? |
-| Boucle asset locale | LocalAssetFactory | Concept de service local pour preflight, normalisation, manifest et handoff Unity. | Concepts de validation, checklist QA, criteres handoff. | Peut-on accepter ou rejeter un asset avec des criteres clairs et repetables? |
+### Ligne Principale
 
-```mermaid
-flowchart LR
-    A[Images et references autorisees] --> B[Dataset ReviewEval]
-    B --> C[Splat Face]
-    B --> D[Mob'ia / ccomf-unity]
-    G[CodexUnity] --> D
-    D --> E[LocalAssetFactory]
-    C --> F[Revue Unity / mobile]
-    E --> F
-```
+La carte projet suit une ligne pratique: **revoir la source, preparer un candidat leger, le passer a Unity et ecrire la decision de revue**.
 
-### Lecture produit
+**Splat Face / Splat Facade Baker** est le centre de cette ligne. Il porte la route asset 2.5D et facade: cadrage visuel, logique depth-card, lisibilite texture, role attendu en scene et contraintes mobile.
 
-La chaine commence par la qualite des sources, pas par la generation. Elle passe ensuite par la preparation asset, l'orchestration produit, la normalisation et la revue Unity. Le claim final n'est pas "l'image est jolie"; le claim final est "l'asset a une source, un usage attendu, un statut de validation et des criteres d'acceptation Unity".
+**Dataset ReviewEval** vient avant. Il garde le pipeline honnete en forcant une decision sur le materiel source: garder, corriger, refuser, exporter ou revoir plus tard.
+
+**CodexUnity / CodexToUnity** intervient au handoff. Il rend lisibles le cadrage de demande, les manifests, les candidats generes, les controles import et les notes de revue.
+
+**Mob'ia / ccomf-unity** entoure le workflow comme couche produit: profils, jobs, artefacts, clients et etats de revue.
+
+**LocalAssetFactory** reste proche de la machine: fichiers locaux, normalisation, manifests, attentes d'import Unity et notes de revue finales.
+
+### Lecture Produit
+
+La chaine ne doit pas finir par "asset created". Elle doit finir par une decision qu'une autre personne peut lire: accepter, reviser, refuser, archiver ou garder pour revue ulterieure.

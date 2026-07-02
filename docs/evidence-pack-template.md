@@ -2,52 +2,36 @@
 
 [EN](#english) | [FR](#francais)
 
-Use this template for any future public proof added to this repository.
-
 ## English
 
-### Public Proof Card
+### Proof Note Template
 
-| Field | Content |
-| --- | --- |
-| Proof ID | `3D-PXX` |
-| Surface | Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia / ccomf-unity, or LocalAssetFactory |
-| Scenario | One user-visible action, written without private paths or commands. |
-| Expected result | Observable result in product language. |
-| Observed result | Summarized outcome, no raw logs. |
-| Evidence type | Public repository metadata, redacted screenshot, synthetic diagram, or written QA summary. |
-| Date | `YYYY-MM-DD` |
-| Status | `verified`, `demo-ready`, `prototype`, `concept`, or `needs scoped validation`. |
-| Exclusions | Files, routes, logs, models, generated assets, datasets, Unity builds, or workflows intentionally not published. |
+Use this shape for each proof note:
+
+- Claim: what the note proves.
+- Source: what visual input or project surface was reviewed.
+- Route: Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia, or LocalAssetFactory.
+- Criteria: what was checked.
+- Result: accepted, revise, reject, archive, or revisit.
+- Next action: the smallest useful follow-up.
 
 ### Review Checklist
 
-- No source code, endpoint, route, token, run id, local path, model config, workflow, raw log, GLB/FBX/OBJ, dataset, generated image, Unity build, or private screenshot.
-- The claim names the exact surface and does not imply broader production readiness.
-- The evidence can be understood by a user, buyer, collaborator, recruiter, mission lead, or technical reviewer.
-- The visual, if any, is a diagram, synthetic mock, or fully redacted capture.
-- The next action is specific enough to support a scoped demo or partnership decision.
+The note should be understandable without live context. It should not include secrets, tokens, raw logs, local paths, unreleased builds, or rights-sensitive source material.
 
 ## Francais
 
-### Carte de preuve publique
+### Modele De Note Preuve
 
-| Champ | Contenu |
-| --- | --- |
-| Proof ID | `3D-PXX` |
-| Surface | Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia / ccomf-unity ou LocalAssetFactory |
-| Scenario | Une action visible utilisateur, redigee sans chemins ni commandes prives. |
-| Resultat attendu | Resultat observable en langage produit. |
-| Resultat observe | Synthese du resultat, sans logs bruts. |
-| Type de preuve | Metadata repo public, capture redigee, diagramme synthetique ou resume QA. |
-| Date | `YYYY-MM-DD` |
-| Statut | `verified`, `demo-ready`, `prototype`, `concept` ou `needs scoped validation`. |
-| Exclusions | Fichiers, routes, logs, modeles, assets generes, datasets, builds Unity ou workflows volontairement non publies. |
+Utiliser cette forme pour chaque note de preuve:
 
-### Checklist revue
+- Claim: ce que la note prouve.
+- Source: quelle entree visuelle ou surface projet a ete revue.
+- Route: Dataset ReviewEval, Splat Face, CodexUnity, Mob'ia ou LocalAssetFactory.
+- Criteres: ce qui a ete controle.
+- Resultat: accepter, reviser, refuser, archiver ou revoir plus tard.
+- Prochaine action: le plus petit suivi utile.
 
-- Aucun code source, endpoint, route, token, run id, chemin local, config modele, workflow, log brut, GLB/FBX/OBJ, dataset, image generee, build Unity ou capture privee.
-- Le claim nomme la surface exacte et ne suggere pas une readiness production plus large.
-- La preuve est comprehensible par utilisateur, acheteur, collaborateur, recruteur, responsable mission ou reviewer technique.
-- Le visuel eventuel est un diagramme, mock synthetique ou capture totalement redigee.
-- La prochaine action est assez specifique pour soutenir une demo ciblee ou decision partenariat.
+### Checklist De Revue
+
+La note doit etre comprehensible sans contexte en direct. Elle ne doit pas contenir secrets, tokens, logs bruts, chemins locaux, builds non publies ou materiel source sensible aux droits.

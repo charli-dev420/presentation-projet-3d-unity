@@ -1,49 +1,51 @@
-# Public Proof Pack / Pack de preuves public
+# Proof Pack / Pack preuve
 
 [EN](#english) | [FR](#francais)
 
 ## English
 
-### Proof Inventory
+### What The Pack Proves
 
-| Proof | Source | Strength | Use |
-| --- | --- | --- | --- |
-| Dataset ReviewEval readiness | Public repository and publication audit. | Strong for a local desktop review tool. | Show hygiene, test baseline, local-first workflow, and export discipline. |
-| Dataset and Flux/Trellis preparation docs | Product documentation and review criteria. | Strong for operator comprehension. | Explain why source quality comes before generation. |
-| Splat Face project status | Public status docs and architecture notes. | Medium-strong for pipeline direction. | Show the 2.5D/mobile route and define a scoped asset demo. |
-| CodexUnity audit | Public prototype audit and dry-run paths. | Medium for experimental sharing. | Position the bridge as a collaboration surface, not a release candidate. |
-| Mob'ia / ccomf-unity role | Private product summarized through public-safe maps. | Medium as a product dossier. | Explain profiles, jobs, artifacts, clients, and review flow without backend exposure. |
-| LocalAssetFactory concept | Private/local loop summarized through diagrams and QA criteria. | Medium for demo framing. | Explain how a local asset loop can produce Unity-facing acceptance evidence. |
+This proof pack is meant to help a reader judge the project without needing a guided explanation. It should make four things clear: source quality, Splat Face asset route, Unity-facing checks, and the next useful action.
 
-### What A Reviewer Should Be Able To Decide
+The pack supports the main product claim: reviewed visual sources can become lightweight Unity/mobile candidates when the pipeline captures source decision, preparation route, handoff criteria, and final review.
 
-- Is the public story coherent across dataset review, asset preparation, product orchestration, and Unity handoff?
-- Which part is ready for a public conversation, which part needs a private demo, and which part needs partner validation?
-- What single proof should be produced next to support a buying, hiring, or partnership decision?
+### Current Proof Areas
 
-### Not Published In This Pack
+Dataset ReviewEval gives source-review structure.
 
-Datasets, model weights, private ComfyUI workflows, generated images, GLB/FBX/OBJ files, Unity builds, private screenshots, raw proof JSON, raw logs, endpoints, local paths, and storage details.
+Splat Face / Splat Facade Baker gives the main asset route and quality criteria.
+
+CodexUnity / CodexToUnity gives the handoff language.
+
+Mob'ia / ccomf-unity gives product workflow state.
+
+LocalAssetFactory gives local preparation and review language.
+
+### What A Reviewer Should Decide
+
+After reading the pack, a reviewer should be able to say which source route is credible, which asset criteria matter first, which Unity checks are still needed, and what kind of support would move the work forward.
 
 ## Francais
 
-### Inventaire des preuves
+### Ce Que Prouve Le Pack
 
-| Preuve | Source | Force | Usage |
-| --- | --- | --- | --- |
-| Readiness Dataset ReviewEval | Repo public et audit publication. | Fort pour outil desktop local de revue. | Montrer hygiene, baseline de tests, workflow local-first et discipline export. |
-| Docs preparation dataset et Flux/Trellis | Documentation produit et criteres de revue. | Fort pour comprehension operateur. | Expliquer pourquoi la qualite source vient avant la generation. |
-| Statut projet Splat Face | Docs statut publiques et notes architecture. | Moyen-fort pour direction pipeline. | Montrer la route 2.5D/mobile et definir une demo asset ciblee. |
-| Audit CodexUnity | Audit prototype public et chemins dry-run. | Moyen pour partage experimental. | Positionner le pont comme surface de collaboration, pas comme release candidate. |
-| Role Mob'ia / ccomf-unity | Produit prive resume via cartes public-safe. | Moyen comme dossier produit. | Expliquer profils, jobs, artefacts, clients et revue sans exposer backend. |
-| Concept LocalAssetFactory | Boucle privee/locale resumee via diagrammes et criteres QA. | Moyen pour cadrage demo. | Expliquer comment une boucle asset locale peut produire une preuve d'acceptation Unity. |
+Ce pack preuve sert a aider un lecteur a juger le projet sans explication guidee. Il doit rendre quatre choses claires: qualite source, route asset Splat Face, controles orientes Unity et prochaine action utile.
 
-### Ce qu'un reviewer doit pouvoir decider
+Le pack soutient le claim produit principal: des sources visuelles revues peuvent devenir des candidats Unity/mobile legers quand le pipeline capture decision source, route de preparation, criteres handoff et revue finale.
 
-- Le recit public est-il coherent entre revue dataset, preparation asset, orchestration produit et handoff Unity?
-- Quelle partie est prete pour discussion publique, quelle partie demande demo privee et quelle partie demande validation partenaire?
-- Quelle preuve unique produire ensuite pour soutenir une decision achat, recrutement ou partenariat?
+### Zones De Preuve Actuelles
 
-### Non publie dans ce pack
+Dataset ReviewEval donne la structure de revue source.
 
-Datasets, poids de modeles, workflows ComfyUI prives, images generees, fichiers GLB/FBX/OBJ, builds Unity, captures privees, JSON de preuve brut, logs bruts, endpoints, chemins locaux et details de stockage.
+Splat Face / Splat Facade Baker donne la route asset principale et les criteres qualite.
+
+CodexUnity / CodexToUnity donne le langage de handoff.
+
+Mob'ia / ccomf-unity donne l'etat workflow produit.
+
+LocalAssetFactory donne le langage de preparation et revue locale.
+
+### Ce Qu'Un Reviewer Doit Decider
+
+Apres lecture du pack, un reviewer doit pouvoir dire quelle route source est credible, quels criteres asset comptent d'abord, quels controles Unity restent necessaires et quel support ferait avancer le travail.
